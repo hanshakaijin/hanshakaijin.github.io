@@ -31,6 +31,8 @@ In this game, one "patient player" and one or more "virus players" fight. The bo
 
 ## Virus Player Objectives - ウイルス役の目的
 
+One of the following conditions is met.
+
 > ※以下のどちらか
 
 > - 10ターン後にウイルス・寄生虫が配置されていること。 
