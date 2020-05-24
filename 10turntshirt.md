@@ -23,9 +23,11 @@ In this game, one "patient player" and one or more "virus players" fight. The bo
 
 > 「患者役」1人と「ウイルス役」1人以上にわかれて、対戦形式でゲームをおこないます。ゲームの盤面は患者役自身の肉体です！ 
  
-## Patient Player Objectives 患者役の目的
+## Patient Player Objectives - 患者役の目的
 
-> ● 10ターン後にウイルス・寄生虫が配置されていないこと。 
+- No viruses or parasites on patient player's body in the 10th turn.
+
+> - 10ターン後にウイルス・寄生虫が配置されていないこと。 
 
 > ＜ウイルス役の目的＞  ※以下のどちらか
 
