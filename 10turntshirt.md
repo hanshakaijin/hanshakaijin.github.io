@@ -19,10 +19,16 @@ You team members looked at each other and silently raised your fists...
 
 # Objective - ゲームの目的・概要
 
+In this game, one "patient player" and one or more "virus players" fight. The board of the game is the patient player's body! 
+
 > 「患者役」1人と「ウイルス役」1人以上にわかれて、対戦形式でゲームをおこないます。ゲームの盤面は患者役自身の肉体です！ 
-> ＜患者役の目的＞ 
+ 
+## Patient Player Objectives 患者役の目的
+
 > ● 10ターン後にウイルス・寄生虫が配置されていないこと。 
+
 > ＜ウイルス役の目的＞  ※以下のどちらか
+
 > ● 10ターン後にウイルス・寄生虫が配置されていること。 
 > ● それよりも早く、心臓1箇所＋腎臓2箇所（喪失している場合は1箇所）のすべてにウイルスまたは寄生虫を配置すること。 
 > ● じゃんけんで患者役を決めます。 
