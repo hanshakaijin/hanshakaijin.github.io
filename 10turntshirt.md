@@ -1,6 +1,6 @@
 ---
 layout: default
-title: 10ターン後に死ぬTシャツ English Rule
+title: T-Shirt of the 10th Turn to Die - 10ターン後に死ぬTシャツ English Rule
 ---
 
 # Introduction - はじめに
