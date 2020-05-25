@@ -34,7 +34,7 @@ In this game, one "patient player" and one or more "virus players" fight. The bo
 
 One of the following conditions is met.
 - One or more viruses or parasites on patient player's body in the 10th turn.
-- Place the viruses or parasites in all of 1 heart and 2 kidneys (or 1 if patient player has lost one).
+- Place the viruses or parasites in all of 1 heart and 2 kidneys (or 1 if patient player has lost one) by the 10th turn.
 
 > ※以下のどちらか
 > - 10ターン後にウイルス・寄生虫が配置されていること。 
