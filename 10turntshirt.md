@@ -26,7 +26,7 @@ In this game, one "patient player" and one or more "virus players" fight. The bo
  
 ### Patient Player Objective - 患者役の目的
 
-- Exterminate the viruses and parasites on patient player's body by the 10th turn.
+- Exterminate all viruses and parasites on patient player's body by the 10th turn.
 
 > - 10ターン後にウイルス・寄生虫が配置されていないこと。 
 
