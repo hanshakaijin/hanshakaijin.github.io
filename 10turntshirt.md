@@ -8,7 +8,7 @@ title: T-Shirt of the 10th Turn to Die - 10ターン後に死ぬTシャツ Engli
 
 A long time ago, a certain city in a certain country was destroyed by a pandemic of a new virus. You have been dispatched to an abandoned virus laboratory in a certain city as an investigation team of the World Health Organization's Special Task Force for Infectious Diseases. You found a T-shirt in the deepest clean room of the laboratory. The T-shirt was printed with the words "THE 10TH TURN TO DIE," so you all felt fear. Although the team members wondered its effectiveness, but they concluded that someone actually had to wear it and experiment with it. "I don't like to wear it!" The team members cried out. Then, the ruthless voice of the WHO Director-General echoed. 
 
-Who loses by rock-paper-scissors, wear it!　In doing so, all questions will be answered.
+Who loses by rock-paper-scissors, wear it! In doing so, all questions will be answered.
 
 You team members looked at each other and silently raised your fists...
 
@@ -26,15 +26,15 @@ In this game, one "patient player" and one or more "virus players" fight. The bo
  
 ### Patient Player Objective - 患者役の目的
 
-- No viruses or parasites on patient player's body in the 10th turn.
+- Exterminate the viruses and parasites on patient player's body by the 10th turn.
 
 > - 10ターン後にウイルス・寄生虫が配置されていないこと。 
 
 ### Virus Player Objectives - ウイルス役の目的
 
 One of the following conditions is met.
-- a
-- b
+- One or more viruses or parasites on patient player's body in the 10th turn.
+- Place the viruses or parasites in all of 1 heart and 2 kidneys (or 1 if patient player has lost one).
 
 > ※以下のどちらか
 > - 10ターン後にウイルス・寄生虫が配置されていること。 
