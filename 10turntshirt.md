@@ -91,6 +91,9 @@ It is recommended to press some of the end squares, such as D1 and G12.
 
 ### TIPS：How to Place Virus/Parasite Stickers - ウイルス・寄生虫シールの貼り方 
 
+![Setup Image]({{site.baseurl}}/images/10turntshirt/jerk.png)
+
 > ウイルス・寄生虫の配置は、対応するシールをマスに貼ることで実現されます。 
 >
 > その際、どこに貼っているのか患者役がわかるように「ぐいっ」と指で押しながら貼ってください。 
+
