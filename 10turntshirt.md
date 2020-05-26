@@ -53,11 +53,31 @@ One of the following conditions is met.
 
 ![Setup Image]({{site.baseurl}}/images/10turntshirt/setup.png)
 
+- A player who loses at rock-paper-scissors is patient player. Others are virus players.
+- Patient player wears Battle T-Shirt. The front of the T-shirt is printed with upside down letters.
+- Align the sensation of the body with the T-shirt (zero-point adjustment).
+- Turn the cards face down, shuffle them, and choose 10 cards from them. 
+- The 10 cards are stacked face down to make a draw deck. 
+- Deal a sticker sheet to each of players. If you run out of stickers during the game, please use a new sticker sheet as appropriate.
+- As an initial placement, virus player is placed in any five squares. In other words, attach virus stickers shown below.
+
 > - じゃんけんで患者役を決めます。 
 > - 患者役はバトルTシャツを着ます。※Ｔシャツは背面が正常な文字方向、腹面がさかさまの文字方向になります。 
 > - Ｔシャツの位置合わせ（ゼロ点調整）をします。 
+> - 治療カードを裏向きによくシャッフルし、そこから10枚を選びます。 
+> - その10枚を中央に裏向きに重ねて、山札を作ります。 
+> - 患者役、ウイルス役それぞれにシールシートを配ります。※ゲーム中にシールが不足したら、適宜新しいシールシートを使ってください。 
+> - ウイルス役は初期配置として、任意の５マスにウイルスを配置します。下に示すウイルスシールを貼ります。
 
-### TIPS：位置合わせ（ゼロ点調整） 
+### TIPS：Alignment (zero-point adjustment) - 位置合わせ（ゼロ点調整） 
+
+Depending on patient player's habits and body shape, there may be a difference in the height of the print on the front and the print on the back of the T-shirt.
+
+So, virus player presses a specific spot on patient player's back, allowing the patient to grasp the misalignment between the front and the back. 
+
+By grasping the misalignment, patient player will be able to guess which square is corresponding in the front from the sensation of being pressed back.
+
+It is recommended to press some of the end squares, such as D1 and G12. 
 
 > Ｔシャツは着る人のクセや体形により、腹面と背面の上下方向の高さが微妙にずれます。 
 > 
@@ -66,11 +86,6 @@ One of the following conditions is met.
 > これにより、背中を押された感覚から、腹面のどのマスに当たるかが推測できるようになります。 
 > 
 > D1、G12など、いくつかの端のマスで実施することをおすすめします。 
-
-> - 治療カードを裏向きによくシャッフルし、そこから10枚を選びます。 
-> - その10枚を中央に裏向きに重ねて、山札を作ります。 
-> - 患者役、ウイルス役それぞれにシールシートを配ります。※ゲーム中にシールが不足したら、適宜新しいシールシートを使ってください。 
-> - ウイルス役は初期配置として、任意の５マスにウイルスを配置します。右に示すウイルスシールを貼ります。
 
 ### TIPS：ウイルス・寄生虫シールの貼り方 
 
