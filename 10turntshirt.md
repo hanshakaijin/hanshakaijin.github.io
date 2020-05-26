@@ -59,9 +59,9 @@ One of the following conditions is met.
 - Turn the cards face down, shuffle them, and choose 10 cards from them. 
 - The 10 cards are stacked face down to make a draw deck. 
 - Deal a sticker sheet to each of players. If you run out of stickers during the game, please use a new sticker sheet as appropriate.
-- As an initial placement, virus player is placed in any five squares. This means attaching virus stickers shown below.
+- As an initial placement, virus player is placed in any five squares. This means putting virus stickers shown below.
 
-![Setup Image]({{site.baseurl}}/images/10turntshirt/stiker_virus.png)
+![Setup Image]({{site.baseurl}}/images/10turntshirt/sticker_virus.png)
 
 > - じゃんけんで患者役を決めます。 
 > - 患者役はバトルTシャツを着ます。※Ｔシャツは背面が正常な文字方向、腹面がさかさまの文字方向になります。 
@@ -71,7 +71,7 @@ One of the following conditions is met.
 > - 患者役、ウイルス役それぞれにシールシートを配ります。※ゲーム中にシールが不足したら、適宜新しいシールシートを使ってください。 
 > - ウイルス役は初期配置として、任意の５マスにウイルスを配置します。下に示すウイルスシールを貼ります。
 
-### TIPS：Alignment (zero-point adjustment) - 位置合わせ（ゼロ点調整） 
+### TIPS：Alignment (Zero-Point Adjustment) - 位置合わせ（ゼロ点調整） 
 
 Depending on patient player's habits and body shape, there may be a difference in the height of the print on the front and the print on the back of the T-shirt.
 
@@ -89,7 +89,7 @@ It is recommended to press some of the end squares, such as D1 and G12.
 > 
 > D1、G12など、いくつかの端のマスで実施することをおすすめします。 
 
-### TIPS：ウイルス・寄生虫シールの貼り方 
+### TIPS：How to Place Virus/Parasite Stickers - ウイルス・寄生虫シールの貼り方 
 
 > ウイルス・寄生虫の配置は、対応するシールをマスに貼ることで実現されます。 
 >
