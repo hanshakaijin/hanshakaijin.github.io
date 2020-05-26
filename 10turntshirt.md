@@ -1,13 +1,13 @@
 ---
 layout: default
-title: "To Be Dead in 10 Turns" T-Shirt - 10ターン後に死ぬTシャツ English Rule
+title: To Be Dead in 10 Turns T-Shirt - 10ターン後に死ぬTシャツ English Rule
 ---
 
 
-!["To Be Dead in 10 Turns" T-Shirt]({{site.baseurl}}/images/10turntshirt/titlep.png)
+![To Be Dead in 10 Turns T-Shirt]({{site.baseurl}}/images/10turntshirt/titlep.png)
 ![Game Spec]({{site.baseurl}}/images/10turntshirt/spec.png)
 
-# "To Be Dead in 10 Turns" T-Shirt - 10ターン後に死ぬTシャツ English Rule
+# To Be Dead in 10 Turns T-Shirt - 10ターン後に死ぬTシャツ English Rule
 
 ## Introduction - はじめに
 
