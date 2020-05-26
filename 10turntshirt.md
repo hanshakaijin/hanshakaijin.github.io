@@ -2,7 +2,12 @@
 layout: default
 title: T-Shirt of the 10th Turn to Die - 10ターン後に死ぬTシャツ English Rule
 ---
+
+![T-Shirt of the 10th Trun to Die]({{site.baseurl}}/images/10turntshirt/titlep.png)
+
 # T-Shirt of the 10th Turn to Die - 10ターン後に死ぬTシャツ English Rule
+
+![Game Spec]({{site.baseurl}}/images/10turntshirt/spec.png)
 
 ## Introduction - はじめに
 
