@@ -95,10 +95,9 @@ The placement of virus/parasite is done by putting virus/parasite sticker on the
 
 At that time, virus player should place the sticker while pressing firmly it with his or her finger, so that patient player can sense where it is being placed. 
 
-> ウイルス・寄生虫の配置は、対応するシールをマスに貼ることで実現されます。 
-
 ![Setup Image]({{site.baseurl}}/images/10turntshirt/jerk.png)
 
+> ウイルス・寄生虫の配置は、対応するシールをマスに貼ることで実現されます。 
 >
 > その際、どこに貼っているのか患者役がわかるように「ぐいっ」と指で押しながら貼ってください。 
 
