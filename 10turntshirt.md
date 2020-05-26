@@ -59,7 +59,9 @@ One of the following conditions is met.
 - Turn the cards face down, shuffle them, and choose 10 cards from them. 
 - The 10 cards are stacked face down to make a draw deck. 
 - Deal a sticker sheet to each of players. If you run out of stickers during the game, please use a new sticker sheet as appropriate.
-- As an initial placement, virus player is placed in any five squares. In other words, attach virus stickers shown below.
+- As an initial placement, virus player is placed in any five squares. This means attaching virus stickers shown below.
+
+![Setup Image]({{site.baseurl}}/images/10turntshirt/stiker_virus.png)
 
 > - じゃんけんで患者役を決めます。 
 > - 患者役はバトルTシャツを着ます。※Ｔシャツは背面が正常な文字方向、腹面がさかさまの文字方向になります。 
