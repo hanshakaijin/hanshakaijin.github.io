@@ -51,6 +51,8 @@ One of the following conditions is met.
 
 ## Setup - ゲームの準備
 
+![Setup Image]({{site.baseurl}}/images/10turntshirt/setup.png)
+
 > - じゃんけんで患者役を決めます。 
 > - 患者役はバトルTシャツを着ます。※Ｔシャツは背面が正常な文字方向、腹面がさかさまの文字方向になります。 
 > - Ｔシャツの位置合わせ（ゼロ点調整）をします。 
