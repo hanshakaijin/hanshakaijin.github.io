@@ -6,7 +6,7 @@ title: T-Shirt of the Dead in 10 Turns - 10ターン後に死ぬTシャツ Engli
 ![T-Shirt of the Dead in 10 Turns]({{site.baseurl}}/images/10turntshirt/titlep.png)
 ![Game Spec]({{site.baseurl}}/images/10turntshirt/spec.png)
 
-# T-Shirt of the 10th Turn to Die - 10ターン後に死ぬTシャツ English Rule
+# T-Shirt of the Dead in 10 Turns - 10ターン後に死ぬTシャツ English Rule
 
 ## Introduction - はじめに
 
