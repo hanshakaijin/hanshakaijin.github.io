@@ -42,6 +42,8 @@ One of the following conditions is met.
 
 ## Components - カード構成・内容物
 
+![Components Image]({{site.baseurl}}/images/10turntshirt/components.png)
+
 ## Setup - ゲームの準備
 
 > - じゃんけんで患者役を決めます。 
