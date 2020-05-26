@@ -1,16 +1,17 @@
 ---
 layout: default
-title: T-Shirt of the Dead in 10 Turns - 10ターン後に死ぬTシャツ English Rule
+title: "To Be Dead in 10 Turns" T-Shirt - 10ターン後に死ぬTシャツ English Rule
 ---
 
-![T-Shirt of the Dead in 10 Turns]({{site.baseurl}}/images/10turntshirt/titlep.png)
+
+!["To Be Dead in 10 Turns" T-Shirt]({{site.baseurl}}/images/10turntshirt/titlep.png)
 ![Game Spec]({{site.baseurl}}/images/10turntshirt/spec.png)
 
-# T-Shirt of the Dead in 10 Turns - 10ターン後に死ぬTシャツ English Rule
+# "To Be Dead in 10 Turns" T-Shirt - 10ターン後に死ぬTシャツ English Rule
 
 ## Introduction - はじめに
 
-A long time ago, a certain city in a certain country was destroyed by a pandemic of a new virus. You have been dispatched to an abandoned virus laboratory in a certain city as an investigation team of the World Health Organization's Special Task Force for Infectious Diseases. You found a T-shirt in the deepest clean room of the laboratory. The T-shirt was printed with the words "DEAD IN 10 TURNS," so you all felt fear. Although the team members wondered its effectiveness, but they concluded that someone actually had to wear it and experiment with it. "I don't like to wear it!" The team members cried out. Then, the ruthless voice of the WHO Director-General echoed. 
+A long time ago, a certain city in a certain country was destroyed by a pandemic of a new virus. You have been dispatched to an abandoned virus laboratory in a certain city as an investigation team of the World Health Organization's Special Task Force for Infectious Diseases. You found a T-shirt in the deepest clean room of the laboratory. The T-shirt was printed with the words "TO BE DEAD IN 10 TURNS," so you all felt fear. Although the team members wondered its effectiveness, but they concluded that someone actually had to wear it and experiment with it. "I don't like to wear it!" The team members cried out. Then, the ruthless voice of the WHO Director-General echoed. 
 
 "Who loses by rock-paper-scissors, wear it! In doing so, all questions will be answered."
 
