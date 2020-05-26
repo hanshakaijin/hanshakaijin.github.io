@@ -61,7 +61,7 @@ One of the following conditions is met.
 - Deal a sticker sheet to each of players. If you run out of stickers during the game, please use a new sticker sheet as appropriate.
 - As an initial placement, virus player is placed in any five squares. This means putting virus stickers shown below.
 
-![Setup Image]({{site.baseurl}}/images/10turntshirt/sticker_virus.png)
+![Virus Sticker]({{site.baseurl}}/images/10turntshirt/sticker_virus.png)
 
 > - じゃんけんで患者役を決めます。 
 > - 患者役はバトルTシャツを着ます。※Ｔシャツは背面が正常な文字方向、腹面がさかさまの文字方向になります。 
@@ -95,7 +95,7 @@ The placement of virus/parasite is done by putting virus/parasite sticker on the
 
 At that time, virus player should place the sticker while pressing firmly it with his or her finger, so that patient player can sense where it is being placed. 
 
-![Setup Image]({{site.baseurl}}/images/10turntshirt/jerk.png)
+![Pressing Image]({{site.baseurl}}/images/10turntshirt/jerk.png)
 
 > ウイルス・寄生虫の配置は、対応するシールをマスに貼ることで実現されます。 
 >
@@ -105,12 +105,40 @@ At that time, virus player should place the sticker while pressing firmly it wit
 
 > 毎ターン、患者役とウイルス役がそれぞれ行動します。まず患者役から始まります。
 
-### Ａ.患者役ターン
+### A. Patient Player's Turn - 患者役ターン
+
+Patient player must perform (1) through (3) in order.
 
 > 患者役は①～③を順番に実施します。 
 
-#### ① カード公開
+#### (1) Reveal a Card - カード公開
+
+![Pressing Image]({{site.baseurl}}/images/10turntshirt/card_back.png)
+
+Draw the topmost card of the deck and reveal it within view of all the players.
 
 > 山札の上から1枚を引き、公開します。
 
-#### ② どちらかのアクションを実行
+#### (2) Injection or Use a Card - どちらかのアクションを実行
+
+##### Injection
+
+![Injection Sticker]({{site.baseurl}}/images/10turntshirt/sticker_injection.png)
+
+> マスを1つ選択し、そこに注射を打ちます。 患者役は注射を打つマスをウイルス役に伝えてください。ウイルス・寄生虫の配置状況によって、結果は3つに分かれます。
+
+| 注射マスにウイルス・寄生虫がいた場合 | 注射マスにはウイルス・寄生虫がいなかったが、周囲8マスに1体以上いた場合 |  注射マスにも周囲8マスにもウイルス・寄生虫がいなかった場合 |
+| 的中 | ニア | スカ |
+| 注射マスにいたウイルス・寄生虫は「死滅」します。ウイルス役は、死滅したのがウイルスなのか寄生虫なのかを患者役に伝え、背面のそのマスのウイルス・寄生虫シールを剥がしてください。さらに、的中ボーナスとして、患者役はもう一度注射を実施します。 | ウイルス役は、ニアであることを患者役に伝えます。 また、このターンにサイコロを1個も一時廃棄場に移動させていない場合は、１個を一時廃棄場に移動させます。 （このターンのウイルス役のサイコロの数が2個になります） | ウイルス役はスカであることを患者役に伝えます。 |
+
+##### Use a Card
+
+#### (3) Repeat x 2 - 繰り返し
+
+Repeat (2) two more times. As a result, patient player will perform (2) three times in total.
+
+> (2)をもう2回繰り返し、合計3回実施
+
+### B. Virus Player's Turn - ウイルス役ターン
+
+### C. End of Turn - ターンの終了
