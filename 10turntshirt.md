@@ -11,11 +11,24 @@ title: To Be Dead in 10 Turns T-Shirt - 10ターン後に死ぬTシャツ Englis
 
 ## Introduction - はじめに
 
-A long time ago, a certain city in a certain country was destroyed by a pandemic of a new virus. You have been dispatched to an abandoned virus laboratory in a certain city as an investigation team of the World Health Organization's Special Task Force for Infectious Diseases. You found a T-shirt in the deepest clean room of the laboratory. The T-shirt was printed with the words "TO BE DEAD IN 10 TURNS," so you all felt fear. Although the team members wondered its effectiveness, but they concluded that someone actually had to wear it and experiment with it. "I don't like to wear it!" The team members cried out. Then, the ruthless voice of the WHO Director-General echoed. 
+A long time ago in a galaxy far, far away, a city was destroyed by a novel virus.
 
-"Who loses by rock-paper-scissors, wear it! In doing so, all questions will be answered."
+You are a member of the specialist team that has been dispatched to investigate a laboratory in the city.
 
-You team members looked at each other and silently raised your fists...
+Inside the cleanroom, your team has discovered a mysterious T-shirt.
+
+The writing on the T-shirt reads; “You will die in 10 turns.”
+
+Your team members were skeptical at first, but they finally concluded that one member has to wear the t-shirt to test the effects of it.
+
+But who would do that?
+"I don't want to be the one wearing it!"
+Every team member murmured.
+
+Then, the ruthless voice of the leader echoed.
+"We will decide by playing rock-paper-scissors. Whoever loses wears the t-shirt."
+
+Your team members look at each other and, with great reluctance, called a quiet battle cry…
 
 > かつて新型ウイルスの感染爆発（パンデミック）で滅んだ某国某市。廃墟と化したウイルス研究所にWHO（世界保健機構）感染症特別対策チームの調査隊が派遣された。そこで発見された一着のTシャツ。研究所の最深部、クリーンルームに厳重に保管されていたそれは「10ターン後に死ぬ」とプリントされた、世にも恐ろしい代物だった……。その効果に疑問の目を向ける研究員たちだが、実際に誰かが着て、臨床試験をしないことには信憑性がわからないという結論に至った。「自分は着たくない！」と泣き喚く研究員たちに、WHO長官の鶴の一声がこだまする。 
 > 
@@ -103,6 +116,8 @@ At that time, virus player should place the sticker while pressing firmly it wit
 
 ## Playing the Game - ゲームの進行
 
+Each turn is divided into the patient player's act and virus player's act. It starts with patient player.
+
 > 毎ターン、患者役とウイルス役がそれぞれ行動します。まず患者役から始まります。
 
 ### A. Patient Player's Turn - 患者役ターン
@@ -128,7 +143,8 @@ Draw the topmost card of the deck and reveal it within view of all the players.
 > マスを1つ選択し、そこに注射を打ちます。 患者役は注射を打つマスをウイルス役に伝えてください。ウイルス・寄生虫の配置状況によって、結果は3つに分かれます。
 
 > | 注射マスにウイルス・寄生虫がいた場合 | 注射マスにはウイルス・寄生虫がいなかったが、周囲8マスに1体以上いた場合 |  注射マスにも周囲8マスにもウイルス・寄生虫がいなかった場合 |
-> | **的中** | **ニア** | **スカ** |
+> | 的中 | ニア | スカ |
+> | --- | --- | --- |
 > | 注射マスにいたウイルス・寄生虫は「死滅」します。<br>ウイルス役は、死滅したのがウイルスなのか寄生虫なのかを患者役に伝え、背面のそのマスのウイルス・寄生虫シールを剥がしてください。<br>さらに、的中ボーナスとして、患者役はもう一度注射を実施します。 | ウイルス役は、ニアであることを患者役に伝えます。<br>また、このターンにサイコロを1個も一時廃棄場に移動させていない場合は、１個を一時廃棄場に移動させます。<br>（このターンのウイルス役のサイコロの数が2個になります） | ウイルス役はスカであることを患者役に伝えます。 |
 
 ##### Use a Card
