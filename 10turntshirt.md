@@ -9,7 +9,7 @@ title: To Be Dead in 10 Turns T-Shirt - 10ターン後に死ぬTシャツ Englis
 
 # To Be Dead in 10 Turns T-Shirt - 10ターン後に死ぬTシャツ English Rule
 
-## Introduction - はじめに
+## Prologue - はじめに
 
 A long time ago in a galaxy far, far away, a city was destroyed by a novel virus.
 
@@ -22,10 +22,13 @@ The writing on the T-shirt reads; “You will die in 10 turns.”
 Your team members were skeptical at first, but they finally concluded that one member has to wear the t-shirt to test the effects of it.
 
 But who would do that?
+
 "I don't want to be the one wearing it!"
+
 Every team member murmured.
 
 Then, the ruthless voice of the leader echoed.
+
 "We will decide by playing rock-paper-scissors. Whoever loses wears the t-shirt."
 
 Your team members look at each other and, with great reluctance, called a quiet battle cry…
@@ -42,23 +45,24 @@ In this game, one "patient player" and one or more "virus players" fight. The bo
 
 > 「患者役」1人と「ウイルス役」1人以上にわかれて、対戦形式でゲームをおこないます。ゲームの盤面は患者役自身の肉体です！ 
  
-### Patient Player Objective - 患者役の目的
+### The Goal of the Patient Player - 患者役の目的
 
-- Exterminate all viruses and parasites on patient player's body by the 10th turn.
+- To exterminate all viruses and parasites on your body by the 10th turn.
 
 > - 10ターン後にウイルス・寄生虫が配置されていないこと。 
 
-### Virus Player Objectives - ウイルス役の目的
+### The Goals of the Virus Player(s) - 
 
-One of the following conditions is met.
-- One or more viruses or parasites on patient player's body in the 10th turn.
-- Place the viruses or parasites in all of 1 heart and 2 kidneys (or 1 if patient player has lost one) by the 10th turn.
+To meet one of following conditions.
+
+- One or more viruses or parasites are placed on the patient player's body in the 10th turn.
+- Place viruses or parasites in 1 heart and 2 kidneys (1, ☆ここおかしいかもしれません。心臓がなくて腎臓が残っている場合、2ですか？☆ if patient player has lost heart or kidney,  by the 10th turn.
 
 > ※以下のどちらか
 > - 10ターン後にウイルス・寄生虫が配置されていること。 
 > - それよりも早く、心臓1箇所＋腎臓2箇所（喪失している場合は1箇所）のすべてにウイルスまたは寄生虫を配置すること。 
 
-## Components - カード構成・内容物
+## Game Contents - カード構成・内容物
 
 ![Components Image]({{site.baseurl}}/images/10turntshirt/components.png)
 
@@ -66,13 +70,13 @@ One of the following conditions is met.
 
 ![Setup Image]({{site.baseurl}}/images/10turntshirt/setup.png)
 
-- A player who loses at rock-paper-scissors is patient player. Others are virus players.
-- Patient player wears Battle T-Shirt. The front of the T-shirt is printed with upside down letters.
-- Align the sensation of the body with the T-shirt (zero-point adjustment).
-- Turn the cards face down, shuffle them, and choose 10 cards from them. 
-- The 10 cards are stacked face down to make a draw deck. Other cards are not used in this round.
-- Deal a sticker sheet to each of players. If you run out of stickers during the game, please use a new sticker sheet as appropriate.
-- As an initial placement, virus player is placed in any five squares. This means putting virus stickers shown below.
+- ☆ここに「じゃんけんをする」という文言が必要。☆A player who loses at rock-paper-scissors plays as Patient Player. Others play as Virus Players.
+- The Patient player wears the "Battle T-Shirt." The front of the T-shirt is printed with upside down letters.
+- Perform of "Zero-point Adjustment."　☆Initial adjustmentなどのほうが分かりやすいかも？☆
+- Turn the "☆初出のため、カードの正式名☆cards" face down, shuffle them, and pick 10 cards. 
+- Stack 10 cards, face down, to make☆makeではない☆ a draw deck. (Other cards are not used in this round.)
+- Distribute 1 sticker sheet to each player. (If a player runs out of sticker during the game, use☆useではない☆ a new sticker sheet.
+- The virus player places viruses in any five squares. ☆ここよく分からないです。下？？？This means putting virus stickers shown below.☆
 
 ![Virus Sticker]({{site.baseurl}}/images/10turntshirt/sticker_virus.png)
 
@@ -84,11 +88,11 @@ One of the following conditions is met.
 > - 患者役、ウイルス役それぞれにシールシートを配ります。※ゲーム中にシールが不足したら、適宜新しいシールシートを使ってください。 
 > - ウイルス役は初期配置として、任意の５マスにウイルスを配置します。下に示すウイルスシールを貼ります。
 
-### TIPS：Alignment (Zero-Point Adjustment) - 位置合わせ（ゼロ点調整） 
+### Tips: Zero-Point Adjustment - 位置合わせ（ゼロ点調整） 
 
-Depending on patient player's habits and body shape, there may be a difference in the height of the print on the front and the print on the back of the T-shirt.
+Depending on the patient player's posture and body shape, there may be a gap in the height☆高さではないと思う。位置？☆ of the print on the front and the print on the back of the T-shirt.
 
-So, virus player presses a specific spot on patient player's back, allowing the patient to grasp the misalignment between the front and the back. 
+Virus players can help the adjustment, by pressing a specific spot on patient player's back, allowing the patient to grasp the misalignment between the front and the back. 
 
 By grasping the misalignment, patient player will be able to guess which square is corresponding in the front from the sensation of being pressed back.
 
