@@ -266,7 +266,7 @@ Virus player must perform (1) through (4) in order.
 
 ## Card List
 
-|![Vomiting Card]({{site.baseurl}}/images/10turntshirt/card_1.png)|Kill all Viruses and Parasites in Esophagus or Stomach.|
+|![Vomiting Card]({{site.baseurl}}/images/10turntshirt/card_1.png){width=300px}|Kill all Viruses and Parasites in Esophagus or Stomach.|
 |![Constipation Card]({{site.baseurl}}/images/10turntshirt/card_2.png)||
 |![Constipation Card]({{site.baseurl}}/images/10turntshirt/card_3.png)|Kill all Viruses and Parasites in Intestines.|
 |![Constipation Card]({{site.baseurl}}/images/10turntshirt/card_4.png)|Lose Liver, but kill all Viruses and Parasites in Liver.So, Patients must not drink alcohol during this game.|
