@@ -266,51 +266,88 @@ Virus player must perform (1) through (4) in order.
 
 ## Card List
 
-![Vomiting Card]({{site.baseurl}}/images/10turntshirt/card_2.png)
+![Vomiting Card]({{site.baseurl}}/images/10turntshirt/card_1.png)
 
 Kill all Viruses and Parasites in Esophagus or Stomach.
 
+> 食道と胃のウイルスと寄生虫をすべて死滅させる。
 
 ![Constipation Card]({{site.baseurl}}/images/10turntshirt/card_2.png)
+
+> このターンの間、腸を通じた増殖はできなくなる。ただし患者役は、その間、トイレに行けなくなる。
 
 ![Constipation Card]({{site.baseurl}}/images/10turntshirt/card_3.png)
 
 Kill all Viruses and Parasites in Intestines.
 
+> 腸のウイルスと寄生虫をすべて死滅させる。
+
 ![Constipation Card]({{site.baseurl}}/images/10turntshirt/card_4.png)
 
 Lose Liver, but kill all Viruses and Parasites in Liver.So, Patients must not drink alcohol during this game.
+
+> 肝臓を失う。患者役はこのゲーム中、飲酒ができなくなる。
 
 ![Constipation Card]({{site.baseurl}}/images/10turntshirt/card_5.png)
 
 Lose either Lung, but kill all Viruses and Parasites in the lost Lung.If both lungs are lost, Patients must not breathe during this game.
 
+> 患者役が指定したどちらかの肺を失う。肺が二つとも失われると、患者役はゲーム中息をしてはいけない。
+
 ![Constipation Card]({{site.baseurl}}/images/10turntshirt/card_7.png)
 
 Inject into anywhare, 
 
+> 患者役が指定したマスと周囲8マスのウイルスおよび寄生虫をすべて死滅させる。
+
 ![Constipation Card]({{site.baseurl}}/images/10turntshirt/card_8.png)
+
+> 心臓と腎臓のウイルスと寄生虫をすべて死滅させる。
 
 ![Constipation Card]({{site.baseurl}}/images/10turntshirt/card_9.png)
 
+> 患者役が指定したどちらかの腎臓を失う。かわりに、このターンの患者役は行動回数が2回追加される。
+
 ![Constipation Card]({{site.baseurl}}/images/10turntshirt/card_10.png)
+
+> 腸の寄生虫をすべて死滅させる。
 
 ![Constipation Card]({{site.baseurl}}/images/10turntshirt/card_11.png)
 
+> このターンの間、患者役は何があっても死なない。
+
 ![Constipation Card]({{site.baseurl}}/images/10turntshirt/card_12.png)
+
+> 盲腸を失う。
 
 ![Constipation Card]({{site.baseurl}}/images/10turntshirt/card_13.png)
 
+> ウイルス役は、食道、胃、腸のどこかにウイルスを設置する。そしてただちに次のターンになる。
+
 ![Constipation Card]({{site.baseurl}}/images/10turntshirt/card_14.png)
+
+> このターンの間、食道を通じた増殖はできなくなる。
 
 ![Constipation Card]({{site.baseurl}}/images/10turntshirt/card_15.png)
 
+> このカードをターンの初めに出すと、このターンの間、注射を打つことができなくなるかわりに、4枚カードを使用できる。
+
 ![Constipation Card]({{site.baseurl}}/images/10turntshirt/card_16.png)
+
+> このターンの間、すべての寄生虫の増殖はできなくなる。
 
 ![Constipation Card]({{site.baseurl}}/images/10turntshirt/card_17.png)
 
+> このターンの間、胃を通じた増殖はできなくなる。
+
 ![Constipation Card]({{site.baseurl}}/images/10turntshirt/card_18.png)
+
+> 患者役は5秒間、自分の背中を触ることができる。
 
 ![Constipation Card]({{site.baseurl}}/images/10turntshirt/card_19.png)
 
+> 患者役は任意のマスを4か所指定し、そのマスをウイルス役は押す。
+
 ![Constipation Card]({{site.baseurl}}/images/10turntshirt/card_20.png)
+
+> ウイルス役は、患者役の肩を叩いたり揉んだりして、疲れを癒す。
