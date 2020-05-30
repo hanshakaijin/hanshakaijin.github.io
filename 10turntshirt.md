@@ -267,4 +267,21 @@ Virus player must perform (1) through (4) in order.
 ## Card List
 
 |![Vomiting Card]({{site.baseurl}}/images/10turntshirt/card_1.png)|Kill all Viruses and Parasites in Esophagus or Stomach.|
-|![Constipation Card]({{site.baseurl}}/images/10turntshirt/card_2.png)|aaaa|
+|![Constipation Card]({{site.baseurl}}/images/10turntshirt/card_2.png)||
+|![Constipation Card]({{site.baseurl}}/images/10turntshirt/card_3.png)|Kill all Viruses and Parasites in Intestines.|
+|![Constipation Card]({{site.baseurl}}/images/10turntshirt/card_4.png)|Lose Liver, but kill all Viruses and Parasites in Liver.So, Patients must not drink alcohol during this game.|
+|![Constipation Card]({{site.baseurl}}/images/10turntshirt/card_5.png)|Lose either Lung, but kill all Viruses and Parasites in the lost Lung.If both lungs are lost, Patients must not breathe during this game.|
+|![Constipation Card]({{site.baseurl}}/images/10turntshirt/card_7.png)|Inject into anywhare, |
+|![Constipation Card]({{site.baseurl}}/images/10turntshirt/card_8.png)||
+|![Constipation Card]({{site.baseurl}}/images/10turntshirt/card_9.png)||
+|![Constipation Card]({{site.baseurl}}/images/10turntshirt/card_10.png)||
+|![Constipation Card]({{site.baseurl}}/images/10turntshirt/card_11.png)||
+|![Constipation Card]({{site.baseurl}}/images/10turntshirt/card_12.png)||
+|![Constipation Card]({{site.baseurl}}/images/10turntshirt/card_13.png)||
+|![Constipation Card]({{site.baseurl}}/images/10turntshirt/card_14.png)||
+|![Constipation Card]({{site.baseurl}}/images/10turntshirt/card_15.png)||
+|![Constipation Card]({{site.baseurl}}/images/10turntshirt/card_16.png)||
+|![Constipation Card]({{site.baseurl}}/images/10turntshirt/card_17.png)||
+|![Constipation Card]({{site.baseurl}}/images/10turntshirt/card_18.png)||
+|![Constipation Card]({{site.baseurl}}/images/10turntshirt/card_19.png)||
+|![Constipation Card]({{site.baseurl}}/images/10turntshirt/card_20.png)||
