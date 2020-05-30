@@ -286,19 +286,19 @@ Kill all Viruses and Parasites in Intestines.
 
 Lose Liver, but kill all Viruses and Parasites in Liver.So, Patients must not drink alcohol during this game.
 
-> 肝臓を失う。患者役はこのゲーム中、飲酒ができなくなる。
+> 肝臓を喪失する。患者役はこのゲーム中、飲酒ができなくなる。
 
 ![Constipation Card]({{site.baseurl}}/images/10turntshirt/card_5.png)
 
 Lose either Lung, but kill all Viruses and Parasites in the lost Lung.If both lungs are lost, Patients must not breathe during this game.
 
-> 患者役が指定したどちらかの肺を失う。肺が二つとも失われると、患者役はゲーム中息をしてはいけない。
+> 患者役が指定したどちらかの肺を喪失する。肺が二つとも失われると、患者役はゲーム中息をしてはいけない。
 
 ![Constipation Card]({{site.baseurl}}/images/10turntshirt/card_7.png)
 
 Inject into anywhare, 
 
-> 患者役が指定したマスと周囲8マスのウイルスおよび寄生虫をすべて死滅させる。
+> 患者役が指定したマスと周囲8マスのウイルスと寄生虫をすべて死滅させる。ただし的中ボーナスは適用されない。
 
 ![Constipation Card]({{site.baseurl}}/images/10turntshirt/card_8.png)
 
@@ -306,7 +306,7 @@ Inject into anywhare,
 
 ![Constipation Card]({{site.baseurl}}/images/10turntshirt/card_9.png)
 
-> 患者役が指定したどちらかの腎臓を失う。かわりに、このターンの患者役は行動回数が2回追加される。
+> 患者役が指定したどちらかの腎臓を喪失する。かわりに、このターンの患者役は、さらに2回、追加のアクションができる。
 
 ![Constipation Card]({{site.baseurl}}/images/10turntshirt/card_10.png)
 
@@ -318,7 +318,7 @@ Inject into anywhare,
 
 ![Constipation Card]({{site.baseurl}}/images/10turntshirt/card_12.png)
 
-> 盲腸を失う。
+> 盲腸を喪失する。
 
 ![Constipation Card]({{site.baseurl}}/images/10turntshirt/card_13.png)
 
@@ -330,7 +330,7 @@ Inject into anywhare,
 
 ![Constipation Card]({{site.baseurl}}/images/10turntshirt/card_15.png)
 
-> このカードをターンの初めに出すと、このターンの間、注射を打つことができなくなるかわりに、4枚カードを使用できる。
+> このカードをターン開始時に出すと、このターンの間、患者役は注射ができなくなるかわりに、カード4枚を使用できる。
 
 ![Constipation Card]({{site.baseurl}}/images/10turntshirt/card_16.png)
 
@@ -346,7 +346,7 @@ Inject into anywhare,
 
 ![Constipation Card]({{site.baseurl}}/images/10turntshirt/card_19.png)
 
-> 患者役は任意のマスを4か所指定し、そのマスをウイルス役は押す。
+> ウイルス役は、患者役が指定した4マスを押す。
 
 ![Constipation Card]({{site.baseurl}}/images/10turntshirt/card_20.png)
 
