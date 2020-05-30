@@ -266,6 +266,7 @@ Virus player must perform (1) through (4) in order.
 
 ## Card List
 
+|<img width="300px" alt="Dummy">|<img width="300px" alt="Dummy">|
 |<img src="{{site.baseurl}}/images/10turntshirt/card_1.png" width="300px" alt="Vomiting Card">|Kill all Viruses and Parasites in Esophagus or Stomach.|
 |![Constipation Card]({{site.baseurl}}/images/10turntshirt/card_2.png)||
 |![Constipation Card]({{site.baseurl}}/images/10turntshirt/card_3.png)|Kill all Viruses and Parasites in Intestines.|
