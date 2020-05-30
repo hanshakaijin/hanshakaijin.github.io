@@ -263,3 +263,8 @@ Virus player must perform (1) through (4) in order.
 > 同梱されていたシールがなくなった場合には、市販のシールをかわりにご利用いただくことをおすすめします。
 > 100円ショップや文房具店などで「カラーシール」「丸ラベル」「ポイントシール」などの名前で販売されています。
 > 同梱されているオリジナルのシール同様、4色ていどあれば、色を使い分けることで、同等のプレイが可能です。
+
+## Card List
+
+|![Vomiting Card]({{site.baseurl}}/images/10turntshirt/card_1.png)|Kill all Viruses and Parasites in Esophagus or Stomach.|
+|![Constipation Card]({{site.baseurl}}/images/10turntshirt/card_2.png)|aaaa|
