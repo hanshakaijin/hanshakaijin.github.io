@@ -70,7 +70,7 @@ To meet one of following conditions.
 
 ![Setup Image]({{site.baseurl}}/images/10turntshirt/setup.png)
 
-- ☆ここに「じゃんけんをする」という文言が必要。☆A player who loses at rock-paper-scissors plays as Patient Player. Others play as Virus Players.
+- Play rock-paper-scissors. A looser plays as Patient Player. Others play as Virus Players.
 - The Patient player wears the "Battle T-Shirt." The front of the T-shirt is printed with upside down letters.
 - Perform of "Zero-point Adjustment."　☆Initial adjustmentなどのほうが分かりやすいかも？☆
 - Turn the "☆初出のため、カードの正式名☆cards" face down, shuffle them, and pick 10 cards. 
@@ -150,13 +150,13 @@ Depending on the placement of viruses and parasites, the result is determined fr
 > マスを1つ選択し、そこに注射を打ちます。 患者役は注射を打つマスをウイルス役に伝えてください。ウイルス・寄生虫の配置状況によって、結果は3つに分かれます。
 
 | If there is virus or parasite on the injected square | If there is no virus or parasite on the injected square, but one (or more) virus or parasite on surrounding 8 squares | If there is no virus or parasite on the injected square and surrounding 8 squares |
-| Hit | Near Hit | Blank |
 | --- | --- | --- |
+| **Hit** | **Near Hit** | **Blank** |
 | Virus or parasite on the injected square is killed. The virus player(s) must inform the patient player whether the killed is a virus or a parasite, and then peel off the virus or parasite sticker in that square on the back of the T-shirt. In addition, as a hit bonus, the patient player can give injection once again. | The virus player(s) must inform the patient player "near hit". Then, if you haven't moved a dice to the temporary discard pile on this turn, move one dice to the temporary discard pile. So the virus player's number of dice on this turn is reduced to 2. | The virus player(s) must inform the patient player "blank". |
 
 > | 注射マスにウイルス・寄生虫がいた場合 | 注射マスにはウイルス・寄生虫がいなかったが、周囲8マスに1体以上いた場合 |  注射マスにも周囲8マスにもウイルス・寄生虫がいなかった場合 |
-> | 的中 | ニア | スカ |
 > | --- | --- | --- |
+> | **的中** | **ニア** | **スカ** |
 > | 注射マスにいたウイルス・寄生虫は「死滅」します。<br>ウイルス役は、死滅したのがウイルスなのか寄生虫なのかを患者役に伝え、背面のそのマスのウイルス・寄生虫シールを剥がしてください。<br>さらに、的中ボーナスとして、患者役はもう一度注射を実施します。 | ウイルス役は、ニアであることを患者役に伝えます。<br>また、このターンにサイコロを1個も一時廃棄場に移動させていない場合は、１個を一時廃棄場に移動させます。<br>（このターンのウイルス役のサイコロの数が2個になります） | ウイルス役はスカであることを患者役に伝えます。 |
 
 ##### Use a Card - カード使用
