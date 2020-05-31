@@ -175,6 +175,9 @@ Repeat (2) two more times. As a result, patient player will perform (2) three ti
 
 #### Patient Player Wins - 患者役の勝利
 
+If, as the results of (2), all virus and parasite is killed, patient player wins.
+This round is over.
+
 > | (2)の結果、的中やカード使用によってウイルス・寄生虫が０体になった場合 | 
 > | 撲滅 |
 > | --- |
