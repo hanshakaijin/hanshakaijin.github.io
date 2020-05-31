@@ -161,7 +161,7 @@ Depending on the placement of viruses and parasites, the result is determined fr
 
 ##### Use a Card - カード使用
 
-![Pressing Image]({{site.baseurl}}/images/10turntshirt/card_back.png)
+![Back of Card Image]({{site.baseurl}}/images/10turntshirt/card_back.png)
 
 Select one of public cards, execute the effect written on the card. Then, move the card to discard pile of cards. But "Anti-Vax Movement" card can only used on the first action of (2) of every turn.
 
@@ -207,7 +207,9 @@ You also select one of the placed viruses/parasites and place a new virus/parasi
 ##### Mutation - 受肉
 
 If you are trying to place on a square that already be placed virus, the virus mutates into a parasite. 
-Remove the virus sticker and put a parasite sticker on that square.
+Remove the virus sticker and put a parasite sticker (shown below) on that square.
+
+![Injection Sticker]({{site.baseurl}}/images/10turntshirt/sticker_parasite.png)
 
 > | すでにウイルスのいるマスに増殖する場合 | 
 > | 受肉 |
