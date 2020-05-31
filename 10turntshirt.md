@@ -133,15 +133,13 @@ The patient player must perform (1) through (3) in order.
 
 #### (1) Reveal a Card - カード公開
 
-![Pressing Image]({{site.baseurl}}/images/10turntshirt/card_back.png)
-
 Draw the topmost card of the deck and reveal it within view of all the players.
 
 > 山札の上から1枚を引き、公開します。
 
 #### (2) Injection or Use a Card - どちらかのアクションを実行
 
-##### Injection
+##### Injection - 注射
 
 ![Injection Sticker]({{site.baseurl}}/images/10turntshirt/sticker_injection.png)
 
@@ -161,7 +159,11 @@ Depending on the placement of viruses and parasites, the result is determined fr
 > | --- | --- | --- |
 > | 注射マスにいたウイルス・寄生虫は「死滅」します。<br>ウイルス役は、死滅したのがウイルスなのか寄生虫なのかを患者役に伝え、背面のそのマスのウイルス・寄生虫シールを剥がしてください。<br>さらに、的中ボーナスとして、患者役はもう一度注射を実施します。 | ウイルス役は、ニアであることを患者役に伝えます。<br>また、このターンにサイコロを1個も一時廃棄場に移動させていない場合は、１個を一時廃棄場に移動させます。<br>（このターンのウイルス役のサイコロの数が2個になります） | ウイルス役はスカであることを患者役に伝えます。 |
 
-##### Use a Card
+##### Use a Card - カード使用
+
+![Pressing Image]({{site.baseurl}}/images/10turntshirt/card_back.png)
+
+Select one of public cards, execute the effect written on the card. Then, move the card to discard pile of cards. But "Anti-Vax Movement" card can only used on the first action of (2) of every turn.
 
 > 公開カードから１枚選択し、そこに記載されている効果を実行します。使用したカードは、カード廃棄場に置きます。 ※「反ワクチン運動」カードは、各ターンの初回アクションでのみ使用可能
 
