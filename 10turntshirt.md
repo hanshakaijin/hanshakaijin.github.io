@@ -56,13 +56,13 @@ In this game, one "patient player" and one or more "virus players" fight. The bo
 To meet one of following conditions.
 
 - One or more viruses or parasites are placed on the patient player's body in the 10th turn.
-- Place viruses or parasites in 1 heart and 2 kidneys (1, ☆ここおかしいかもしれません。心臓がなくて腎臓が残っている場合、2ですか？☆ if patient player has lost heart or kidney,  by the 10th turn.
+- Place viruses or parasites in 1 heart and 2 kidneys (1, if patient player has lost one kidney) by the 10th turn.
 
 > ※以下のどちらか
 > - 10ターン後にウイルス・寄生虫が配置されていること。 
 > - それよりも早く、心臓1箇所＋腎臓2箇所（喪失している場合は1箇所）のすべてにウイルスまたは寄生虫を配置すること。 
 
-## Game Contents - カード構成・内容物
+## Game Components - カード構成・内容物
 
 ![Components Image]({{site.baseurl}}/images/10turntshirt/components.png)
 
@@ -90,7 +90,8 @@ To meet one of following conditions.
 
 ### Tips: Zero-Point Adjustment - 位置合わせ（ゼロ点調整） 
 
-Depending on the patient player's posture and body shape, there may be a gap in the height☆高さではないと思う。位置？☆ of the print on the front and the print on the back of the T-shirt.
+Depending on the patient player's posture and body shape, there may be a gap in the vertical position of the print on the front and the print on the back of the T-shirt.
+<!--- heightiからvertical positionにしてみました --->
 
 Virus players can help the adjustment, by pressing a specific spot on patient player's back, allowing the patient to grasp the misalignment between the front and the back. 
 
@@ -126,7 +127,7 @@ Each turn is divided into the patient player's act and virus player's act. It st
 
 ### A. Patient Player's Turn - 患者役ターン
 
-Patient player must perform (1) through (3) in order.
+The patient player must perform (1) through (3) in order.
 
 > 患者役は(1)～(3)を順番に実施します。 
 
@@ -144,7 +145,16 @@ Draw the topmost card of the deck and reveal it within view of all the players.
 
 ![Injection Sticker]({{site.baseurl}}/images/10turntshirt/sticker_injection.png)
 
+Select one square and give injection there.
+The patient player must tell the virus player(s) which square to inject.
+Depending on the placement of viruses and parasites, the result is determined from three cases.
+
 > マスを1つ選択し、そこに注射を打ちます。 患者役は注射を打つマスをウイルス役に伝えてください。ウイルス・寄生虫の配置状況によって、結果は3つに分かれます。
+
+| If there is virus or parasite on the injected square | If there is no virus or parasite on the injected square, but one (or more) virus or parasite on surrounding 8 squares | If there is no virus or parasite on the injected square and surrounding 8 squares |
+| Hit | Near Hit | Blank |
+| --- | --- | --- |
+| xxxx | xxxx | xxxx |
 
 > | 注射マスにウイルス・寄生虫がいた場合 | 注射マスにはウイルス・寄生虫がいなかったが、周囲8マスに1体以上いた場合 |  注射マスにも周囲8マスにもウイルス・寄生虫がいなかった場合 |
 > | 的中 | ニア | スカ |
