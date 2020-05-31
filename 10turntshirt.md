@@ -109,7 +109,7 @@ It is recommended to press some of the end squares, such as D1 and G12.
 
 ### TIPS：How to Place Virus/Parasite Stickers - ウイルス・寄生虫シールの貼り方 
 
-The placement of virus/parasite is done by putting virus/parasite sticker on the square on the back of  the T-shirt. 
+The placement of virus/parasite is done by putting virus/parasite sticker on the square on the back of the T-shirt. 
 
 At that time, virus player should place the sticker while pressing firmly it with his or her finger, so that patient player can sense where it is being placed. 
 
@@ -146,7 +146,7 @@ Draw the topmost card of the deck and reveal it within view of all the players.
 ![Injection Sticker]({{site.baseurl}}/images/10turntshirt/sticker_injection.png)
 
 Select one square and give injection there.
-The patient player must tell the virus player(s) which square to inject.
+The patient player must inform the virus player(s) which square to inject.
 Depending on the placement of viruses and parasites, the result is determined from three cases.
 
 > マスを1つ選択し、そこに注射を打ちます。 患者役は注射を打つマスをウイルス役に伝えてください。ウイルス・寄生虫の配置状況によって、結果は3つに分かれます。
@@ -154,7 +154,7 @@ Depending on the placement of viruses and parasites, the result is determined fr
 | If there is virus or parasite on the injected square | If there is no virus or parasite on the injected square, but one (or more) virus or parasite on surrounding 8 squares | If there is no virus or parasite on the injected square and surrounding 8 squares |
 | Hit | Near Hit | Blank |
 | --- | --- | --- |
-| xxxx | xxxx | xxxx |
+| Virus or parasite on the injected square is killed. The virus player(s) must inform the patient player whether the killed is a virus or a parasite, and then peel off the virus or parasite sticker in that square on the back of the T-shirt. In addition, as a hit bonus, the patient player can give injection once again. | The virus player(s) must inform the patient player "near hit". Then, if you haven't moved a dice to the temporary discard pile on this turn, move one dice to the temporary discard pile. So the virus player's number of dice on this turn is reduced to 2. | The virus player(s) must inform the patient player "blank". |
 
 > | 注射マスにウイルス・寄生虫がいた場合 | 注射マスにはウイルス・寄生虫がいなかったが、周囲8マスに1体以上いた場合 |  注射マスにも周囲8マスにもウイルス・寄生虫がいなかった場合 |
 > | 的中 | ニア | スカ |
