@@ -70,7 +70,7 @@ To meet one of following conditions.
 
 ![Setup Image]({{site.baseurl}}/images/10turntshirt/setup.png)
 
-- Play rock-paper-scissors. A looser plays as Patient Player. Others play as Virus Players.
+- Play rock-paper-scissors. The player who loses plays as Patient Player. Others play as Virus Players.
 - The Patient player wears the "Battle T-Shirt." The front of the T-shirt is printed with upside down letters.
 - Perform of "Zero-point Adjustment."　☆Initial adjustmentなどのほうが分かりやすいかも？☆
 - Turn the "☆初出のため、カードの正式名☆cards" face down, shuffle them, and pick 10 cards. 
@@ -152,7 +152,7 @@ Depending on the placement of viruses and parasites, the result is determined fr
 | If there is virus or parasite on the injected square | If there is no virus or parasite on the injected square, but one (or more) virus or parasite on surrounding 8 squares | If there is no virus or parasite on the injected square and surrounding 8 squares |
 | --- | --- | --- |
 | **Hit** | **Near Hit** | **Blank** |
-| Virus or parasite on the injected square is killed. The virus player(s) must inform the patient player whether the killed is a virus or a parasite, and then peel off the virus or parasite sticker in that square on the back of the T-shirt. In addition, as a hit bonus, the patient player can give injection once again. | The virus player(s) must inform the patient player "near hit". Then, if you haven't moved a dice to the temporary discard pile on this turn, move one dice to the temporary discard pile. So the virus player's number of dice on this turn is reduced to 2. | The virus player(s) must inform the patient player "blank". |
+| Virus or parasite on the injected square is killed. The virus player(s) must inform the patient player whether the killed is a virus or a parasite, and then remove the virus or parasite sticker in that square on the back of the T-shirt. In addition, as a hit bonus, the patient player can give injection once again. | The virus player(s) must inform the patient player "near hit". Then, if you haven't moved a dice to the temporary discard pile on this turn, move one dice to the temporary discard pile. So the virus player's number of dice on this turn is reduced to 2. | The virus player(s) must inform the patient player "blank". |
 
 > | 注射マスにウイルス・寄生虫がいた場合 | 注射マスにはウイルス・寄生虫がいなかったが、周囲8マスに1体以上いた場合 |  注射マスにも周囲8マスにもウイルス・寄生虫がいなかった場合 |
 > | --- | --- | --- |
@@ -191,11 +191,23 @@ Virus player must perform (1) through (4) in order.
 
 #### (1) Roll Dices - サイコロを振る
 
+Roll a certain number of dice.
+The number of dice is usually 3, or 2 if "Near Hit" is occured on the most recent patient's turn.
+
 > サイコロの数は、通常は３個、患者役ターンでニアが出た場合は２個 となります。
 
 #### (2) Growth of Viruses or Parasites - ウイルス・寄生虫の増殖
 
+Select one from the dice you rolled. 
+You also select one of the placed viruses/parasites and place a new virus/parasite as far away from that square as the number of the selected dice rolls.
+(Place new virus if you select virus. Place new parasite if you select parasite.)
+
 > 振ったサイコロから１個選択します。また、残存するウイルス・寄生虫から1つを選択し、そのマスからサイコロの出目の数だけ離れたところに、新しいウイルス・寄生虫を配置します。（ウイルスを選択した場合はウイルス、寄生虫を選択した場合は寄生虫）
+
+##### Mutation - 受肉
+
+If you are trying to place on a square that already be placed virus, the virus mutates into a parasite. 
+Remove the virus sticker and put a parasite sticker on that square.
 
 > | すでにウイルスのいるマスに増殖する場合 | 
 > | 受肉 |
