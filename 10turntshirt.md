@@ -233,11 +233,10 @@ If there is a dice on the temporary discard pile, put it back on the other dices
 Check to see if the game's end condition is met.
 
 > ゲームの終了条件を満たすか確認します。
-there are viruses or parasites in all 1 heart and 2 kidneys (1, if the patient player has lost one kidney)
 
-| On turns 1st through 9th, if there are viruses or parasites in all 1 heart and 2 kidneys (1, if the patient player has lost one kidney) | On 10th turn (there are no card in the draw deck) | Otherwise |
+| On turns 1st through 9th, if there is one virus/parasite on all of Patient's three organs; heart, left kidney, and right kidney. If one kidney is lost, place one virus/parasite on the heart and the remaining kidney. | On 10th turn (there are no card in the draw deck) | Otherwise |
 | --- | --- | --- |
-| **Die** | **Die** | **Continue** |
+| **Die** | **Die** | **Continuation** |
 | xxxxx | xxxxx | xxxx |
 
 > | １～９ターン目 <br>かつ<br>心臓、腎臓の合計３箇所（腎臓を1つ喪失している場合は２箇所）のすべてにウイルスまたは寄生虫が存在する場合 | 10ターン目（山札が残っていない状態） | その他 |
