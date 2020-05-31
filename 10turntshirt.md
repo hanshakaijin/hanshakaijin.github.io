@@ -56,7 +56,7 @@ In this game, one "patient player" and one or more "virus players" fight. The bo
 To meet one of following conditions.
 
 - One or more viruses or parasites are placed on the patient player's body in the 10th turn.
-- Place viruses or parasites in 1 heart and 2 kidneys (1, if patient player has lost one kidney) by the 10th turn.
+- Place viruses or parasites in 1 heart and 2 kidneys (1, if the patient player has lost one kidney) by the 10th turn.
 
 > ※以下のどちらか
 > - 10ターン後にウイルス・寄生虫が配置されていること。 
@@ -218,15 +218,27 @@ Remove the virus sticker and put a parasite sticker (shown below) on that square
 
 #### (3) Repeat - 繰り返し
 
+Perform (2) as many dice as there are left.
+
 > 残っているサイコロの数だけ(2)を実施
 
 #### (4) サイコロを一時廃棄場から戻す
+
+If there is a dice on the temporary discard pile, put it back on the other dices.
 
 > サイコロが２個の場合は、一時廃棄場から１個を戻します。 
 
 ### C. End of Turn - ターンの終了
 
+Check to see if the game's end condition is met.
+
 > ゲームの終了条件を満たすか確認します。
+there are viruses or parasites in all 1 heart and 2 kidneys (1, if the patient player has lost one kidney)
+
+| On turns 1st through 9th, if there are viruses or parasites in all 1 heart and 2 kidneys (1, if the patient player has lost one kidney) | On 10th turn (there are no card in the draw deck) | Otherwise |
+| --- | --- | --- |
+| **Die** | **Die** | **Continue** |
+| xxxxx | xxxxx | xxxx |
 
 > | １～９ターン目 <br>かつ<br>心臓、腎臓の合計３箇所（腎臓を1つ喪失している場合は２箇所）のすべてにウイルスまたは寄生虫が存在する場合 | 10ターン目（山札が残っていない状態） | その他 |
 > | 死亡 | 死亡 | 継続 |
