@@ -259,7 +259,7 @@ There are also other cards with various effects. Follow what is written on the c
 In addition, each card shows the affected squares by coloring them.
 For example, "Smoking" card (shown below) is colored on the left and right Lungs. Because this card will affect either Lung.
 
-![Smoking Card]({{site.baseurl}}/images/10turntshirt/card_9.png)
+![Smoking Card]({{site.baseurl}}/images/10turntshirt/card_5.png)
 
 > カードには、代表的なものとして、下記のような効果が書かれています。 
 > 
