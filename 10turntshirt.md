@@ -282,6 +282,8 @@ The Virus do growth of viruses/parasites in accordance with the following rules.
 - If a card that prohibit the growth through any organ is used on this turn, follow that restriction.
 - The growth pathway of viruses must be through connected squares. However, the growth pathway of parasites can be through unconnected squares. That means parasites can penetrate the walls of organs.
 
+![Pathway Image]({{site.baseurl}}/images/10turntshirt/pathway.png)
+
 > 増殖の際には、下記のルールを守る必要があります。
 > - 始めに、増殖するのがウイルスなのか寄生虫なのかを患者役に伝える。
 > - １マスずつ声に出しながら、増殖経路のマスを指で押していく。（移動開始のマスも、しっかり押す）
