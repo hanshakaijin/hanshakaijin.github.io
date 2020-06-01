@@ -48,6 +48,7 @@ In this game, one "patient player" and one or more "virus players" fight. The bo
 ### The Goal of the Patient - 患者役の目的
 
 - To exterminate all viruses and parasites on your body by the 10th turn.（10ターン後とは10ターン終了後なのか？）
+<!---killに統一した方がわかりやすいでしょうか？--->
 
 > - 10ターン後にウイルス・寄生虫が配置されていないこと。 
 
@@ -153,7 +154,7 @@ Depending on the placement of viruses and parasites on the square and the surrou
 | If there is virus/parasite is placced on the injected square | If there is no virus/parasite on the injected square, but one (or more) virus or parasite on surrounding 8 squares | If there is no virus or parasite on the injected square and surrounding 8 squares |
 | --- | --- | --- |
 | **Hit** | **Near Hit** | **Failed** |
-| Virus/parasite on the injected square is successfully exterminated. <!--表現を目的部分と合わせました--> The Virus must inform the Patient whether the exterminated organism <!--virusも有機体なのでよいと思います--> is a virus or a parasite, and then remove the virus or parasite sticker on the back of the T-shirt. In addition, as a hit bonus, the Patient can give injection once again. | The Virus must inform the Patient of the "Near Hit." Then, if you haven't moved a dice to the temporary discard pile on this turn, move one dice to the temporary discard pile. So the virus player's number of dice on this turn is reduced to 2. | The Virus must inform the Patient that he "Failed". |
+| Virus/parasite on the injected square is successfully exterminated. <!--表現を目的部分と合わせました--> The Virus must inform the Patient whether the exterminated organism <!--virusも有機体なのでよいと思います--> is a virus or a parasite, and then remove the virus or parasite sticker on the back of the T-shirt. In addition, as a hit bonus, the Patient can give injection once again. | The Virus must inform the Patient of the "Near Hit." Then, if you haven't moved a dice to the temporary discard pile on this turn, move one dice to the temporary discard pile. So the virus player's number of dice on this turn is reduced to 2. | The Virus must inform the Patient that they "Failed". |
 
 > | 注射マスにウイルス・寄生虫がいた場合 | 注射マスにはウイルス・寄生虫がいなかったが、周囲8マスに1体以上いた場合 |  注射マスにも周囲8マスにもウイルス・寄生虫がいなかった場合 |
 > | --- | --- | --- |
@@ -276,9 +277,9 @@ For example, "Smoking" card (shown below) is colored on the left and right Lungs
 The Virus do growth of viruses/parasites in accordance with the following rules.
 
 - At first, inform the Patient whether it is a virus's or a parasite's growth.
-- One by one square, press firmly the squares in the growth pathway with his or her finger while counting aloud. Press also the square that the growth is coming from.
+- One by one square, press firmly the squares in the growth pathway with their finger while counting aloud. Press also the square that the growth is coming from.
 - Don't go through the same squares in one growth pathway. In other words, the pathway is a single stroke.
-- When his or her finger reaches the last square, put a virus/parasite sticker on it.
+- When their finger reaches the last square, put a virus/parasite sticker on it.
 - If a card that prohibit the growth through any organ is used on this turn, follow that restriction.
 - The growth pathway of viruses must be through connected squares. However, the growth pathway of parasites can be through unconnected squares. That means parasites can penetrate the walls of organs.
 
@@ -339,7 +340,7 @@ The Virus do growth of viruses/parasites in accordance with the following rules.
 
 ![Vomiting Card]({{site.baseurl}}/images/10turntshirt/card_1.png)
 
-This card kills all Viruses and Parasites in Esophagus or<!--andか？--> Stomach.
+This card kills all Viruses and Parasites in Esophagus and Stomach.
 
 > 食道と胃のウイルスと寄生虫をすべて死滅させる。
 
@@ -398,7 +399,7 @@ The card kills all Parasites in the Intestines.
 
 ![Constipation Card]({{site.baseurl}}/images/10turntshirt/card_12.png)
 
-The Patient loses his Appendix.
+The Patient loses their Appendix.
 
 > 盲腸を喪失する。
 
@@ -424,7 +425,7 @@ The Patient loses his Appendix.
 
 ![Constipation Card]({{site.baseurl}}/images/10turntshirt/card_18.png)
 
-The card allows the Patient to touch his back for 5 seconds.
+The card allows the Patient to touch their back for 5 seconds.
 
 > 患者役は5秒間、自分の背中を触ることができる。
 
