@@ -164,7 +164,7 @@ Depending on the placement of viruses and parasites on the square and the surrou
 
 ![Back of Card Image]({{site.baseurl}}/images/10turntshirt/card_back.png)
 
-Select one of public cards, execute the effect written on the card. Then, move the card to discard pile of cards. But "Anti-Vax Movement" card can only used on the first action of (2) of every turn.
+Select one of public cards, execute the effect written on the card. Then, move the card to discard pile of cards. But "Anti-Vax Movement" card can only used on the first action of 2. of every turn.
 
 > 公開カードから１枚選択し、そこに記載されている効果を実行します。使用したカードは、カード廃棄場に置きます。 ※「反ワクチン運動」カードは、各ターンの初回アクションでのみ使用可能
 
@@ -233,12 +233,12 @@ If there is a dice on the temporary discard pile, put it back on the other dices
 
 Check to see if the game's end condition is met.
 
-> ゲームの終了条件を満たすか確認します。
-
 | On turns 1st through 9th, if there is one parasite on all of Patient's three organs; heart, left kidney, and right kidney. If one kidney is lost, place one parasite on the heart and the remaining kidney | On 10th turn (there are no card in the draw deck) | Otherwise |
 | --- | --- | --- |
 | **Die** | **Die** | **Continue** |
 | The Virus player wins. This round is over. As an exception, if the Patient used "Anti-Vax Movement" card on this turn, the Patient does not die. Proceed to the next turn. | After the 10th Patient's turn, if one or more viruses/parasites are placed on the Patient's body, the Virus player wins. This round is over. | On turns 1st through 9th, if the patient is not dead, proceed to the next turn. |
+
+> ゲームの終了条件を満たすか確認します。
 
 > | １～９ターン目 <br>かつ<br>心臓、腎臓の合計３箇所（腎臓を1つ喪失している場合は２箇所）のすべてにウイルスまたは寄生虫が存在する場合 | 10ターン目（山札が残っていない状態） | その他 |
 > | 死亡 | 死亡 | 継続 |
@@ -248,11 +248,18 @@ Check to see if the game's end condition is met.
 
 As an example, 治療 cards have the following effects written on it.
 
-- This card kills all Viruses/Parasites ... . : Kills all Viruses/Parasites in the card's specified organ at the same time. The Virus must remove the killed virus/parasite stickers on the back of the T-shirt. 
-- The Patient loses ... . : Kills all Viruses/Parasites in the card's specified organ at the same time. The Virus must remove the killed virus/parasite stickers on the back of the T-shirt. In addition, the Virus must put a "lost" sticker (shown below) in the center of the organ. The Virus will no longer be able to do growth of viruses/parasites through the organ.
-- This card prohibits grouwth of viruses/parasites throught ... . : The Virus can not do grouwth of viruses/parasites throught the card's specified organ in this turn.
+- **This card kills all Viruses/Parasites ... .** : Kills all Viruses/Parasites in the card's specified organ at the same time. The Virus must remove the killed virus/parasite stickers on the back of the T-shirt. 
+- **The Patient loses ... .** : Kills all Viruses/Parasites in the card's specified organ at the same time. The Virus must remove the killed virus/parasite stickers on the back of the T-shirt. In addition, the Virus must put a "lost" sticker (shown below) in the center of the organ. The Virus will no longer be able to do growth of viruses/parasites through the organ.
+- **This card prohibits growth of viruses/parasites throught ... .** : The Virus can not do growth of viruses/parasites throught the card's specified organ in this turn.
 
 ![Lost Sticker]({{site.baseurl}}/images/10turntshirt/sticker_lost.png)
+
+There are also other cards with various effects. Follow what is written on the card. 
+
+In addition, each card shows the affected squares by coloring them.
+For example, "Smoking" card (shown below) is colored on the left and right Lungs. Because this card will affect either Lung.
+
+![Smoking Card]({{site.baseurl}}/images/10turntshirt/card_9.png)
 
 > カードには、代表的なものとして、下記のような効果が書かれています。 
 > 
@@ -264,7 +271,16 @@ As an example, 治療 cards have the following effects written on it.
 > 
 > なお、カードには効果のあるマスが色で示されています。例えば上の「喫煙」カードは、どちらかの肺に効果があるものなので、そのマスが着色されています。
 
-### Constraints on Growth - 増殖のルール
+### Restrictions on Growth - 増殖のルール
+
+The Virus do growth of viruses/parasites in accordance with the following rules.
+
+- At first, inform the Patient whether it is a virus's or a parasite's growth.
+- One by one square, press firmly the squares in the growth pathway with his or her finger while counting aloud. Press also the square that the growth is coming from.
+- Don't go through the same squares in one growth pathway. In other words, the pathway is a single stroke.
+- When his or her finger reaches the last square, put a virus/parasite sticker on it.
+- If a card that prohibit the growth through any organ is used on this turn, follow that restriction.
+- The growth pathway of viruses must be through connected squares. However, the growth pathway of parasites can be through unconnected squares. That means parasites can penetrate the walls of organs.
 
 > 増殖の際には、下記のルールを守る必要があります。
 > - 始めに、増殖するのがウイルスなのか寄生虫なのかを患者役に伝える。
