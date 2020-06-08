@@ -91,15 +91,14 @@ To meet one of the following conditions.
 > - 患者役、ウイルス役それぞれにシールシートを配ります。※ゲーム中にシールが不足したら、適宜新しいシールシートを使ってください。 
 > - ウイルス役は初期配置として、任意の５マスにウイルスを配置します。下に示すウイルスシールを貼ります。
 
-### Tips: Zero-Point Adjustment - 位置合わせ（ゼロ点調整） 
+### Tips: Adjustmenting Position of the Battle T-shirt - 位置合わせ（ゼロ点調整） 
 
-Depending on the Patient's posture and body shape, there may be a gap in the vertical position of the print on the front and the print on the back of the T-shirt.
 
-Virus can help the adjustment, by pressing a specific spot on patient player's back, allowing the patient to grasp the misalignment between the front and the back. 
+Depending on the Patient's posture and body shape, the print on the front and the back could be off. 
 
-By grasping the misalignment, patient player will be able to guess which square is corresponding in the front from the sensation of being pressed back.
+The Virus Team can help the adjustment by pressing a specific square on the Patient's back, allowing the Patient to catch the misalignment between the front and the back prints.
 
-It is recommended to press some of the end squares, such as D1 and G12. 
+We recommend to press some of the end squares, such as D1 and G12.
 
 > Ｔシャツは着る人のクセや体形により、腹面と背面の上下方向の高さが微妙にずれます。 
 > 
@@ -111,9 +110,7 @@ It is recommended to press some of the end squares, such as D1 and G12.
 
 ### TIPS：How to Place Virus/Parasite Stickers - ウイルス・寄生虫シールの貼り方 
 
-The placement of virus/parasite is done by putting virus/parasite sticker on the square on the back of the T-shirt. 
-
-At that time, virus player should place the sticker while pressing firmly it with his or her finger, so that patient player can sense where it is being placed. 
+When putting a virus/parasite stickers on the square on the back of the T-shirt, Virus should place the sticker while pressing firmly with their finger, so that the Patient can sense where the sticker has been placed.
 
 ![Pressing Image]({{site.baseurl}}/images/10turntshirt/jerk.png)
 
@@ -123,61 +120,63 @@ At that time, virus player should place the sticker while pressing firmly it wit
 
 ## Playing the Game - ゲームの進行
 
-Each turn is divided into the patient player's act and virus player's act. It starts with patient player.
+Each turn consists of the Patient's action and the Virus Team's action. The Patient starts each turn.
 
 > 毎ターン、患者役とウイルス役がそれぞれ行動します。まず患者役から始まります。
 
-### A. Patient Player's Turn - 患者役ターン
+### A. The Patient's Turn - 患者役ターン
 
-The patient player performs 1. through 3. in order.
+The Patient carries out 手順1 through 手順3 in order.
 
 > 患者役は(1)～(3)を順番に実施します。 
 
-#### 1. Reveal a Card - カード公開
+#### 1. Revealing [カード公開をrevealというのかは要チェック] the Card - カード公開
 
-Draw the topmost card of the deck and show it to all the players.
+The Patients draws the topmost card of the Draw Deck and show the card to all players.
 
 > 山札の上から1枚を引き、公開します。
 
-#### 2. Injection or Use a Card - どちらかのアクションを実行
+#### 2. Carrying Out Injection or [あとで見直し] Card - どちらかのアクションを実行
 
 ##### Injection - 注射
 
 ![Injection Sticker]({{site.baseurl}}/images/10turntshirt/sticker_injection.png)
 
-The Patient chooses 任意の？one square to give an "Injection."<!--現実世界ですべきアクションを書きました！-->
-The Patient informs the Virus the square.
-Depending on the placement of viruses and parasites on the square and the surrounding squares, <!--あとでやる 3 results.-->
+The Patient chooses one square to give an "Injection."<!--現実世界ですべきアクションを書きました！-->
+The Patient announces the Virus Team which square to inject.
+Depending on the placement of virus/parasite on the square and surrounding squares, there will be three results.<!--あとでやる 3 results.-->
 
 > マスを1つ選択し、そこに注射を打ちます。 患者役は注射を打つマスをウイルス役に伝えてください。ウイルス・寄生虫の配置状況によって、結果は3つに分かれます。（変更後：患者を）
 
 | If there is virus/parasite is placced on the injected square | If there is no virus/parasite on the injected square, but one (or more) virus or parasite on surrounding 8 squares | If there is no virus or parasite on the injected square and surrounding 8 squares |
 | --- | --- | --- |
-| **Hit** | **Near Hit** | **Failed** |
-| Virus/parasite on the injected square is successfully exterminated. <!--表現を目的部分と合わせました--> The Virus must inform the Patient whether the exterminated organism <!--virusも有機体なのでよいと思います--> is a virus or a parasite, and then remove the virus or parasite sticker on the back of the T-shirt. In addition, as a hit bonus, the Patient can give injection once again. | The Virus must inform the Patient of the "Near Hit." Then, if you haven't moved a dice to the temporary discard pile on this turn, move one dice to the temporary discard pile. So the virus player's number of dice on this turn is reduced to 2. | The Virus must inform the Patient that they "Failed". |
+| **Hit** | **Almost** | **Failed** |
+| Virus/parasite on the injected square is successfully killed. The Virus Team must inform the Patient whether the dead organism was a virus or a parasite. Then, remove the virus/parasite sticker. In addition, as a Hit bonus, the Patient can give one more Injection. | The Virus Team must inform the Patient of the "Almost" hit. Then, if the Virus Team has not moved a dice to the Temporary Discard Pile on this turn, move one dice to the Temporary Discard Pile. Virus Team will use 2 dices during this turn. | The Virus Team must inform the Patient that the Patient "Failed". |
 
 > | 注射マスにウイルス・寄生虫がいた場合 | 注射マスにはウイルス・寄生虫がいなかったが、周囲8マスに1体以上いた場合 |  注射マスにも周囲8マスにもウイルス・寄生虫がいなかった場合 |
 > | --- | --- | --- |
 > | **的中** | **ニア** | **スカ** |
 > | 注射マスにいたウイルス・寄生虫は「死滅」します。<br>ウイルス役は、死滅したのがウイルスなのか寄生虫なのかを患者役に伝え、背面のそのマスのウイルス・寄生虫シールを剥がしてください。<br>さらに、的中ボーナスとして、患者役はもう一度注射を実施します。 | ウイルス役は、ニアであることを患者役に伝えます。<br>また、このターンにサイコロを1個も一時廃棄場に移動させていない場合は、１個を一時廃棄場に移動させます。<br>（このターンのウイルス役のサイコロの数が2個になります） | ウイルス役はスカであることを患者役に伝えます。 |
 
-##### Use a Card - カード使用
+##### Using a Card - カード使用
 
 ![Back of Card Image]({{site.baseurl}}/images/10turntshirt/card_back.png)
 
-Select one of public cards, execute the effect written on the card. Then, move the card to discard pile of cards. But "Anti-Vax Movement" card can only used on the first action of 2. of every turn.
+The Patient chooses a card from the 公開カード. Carry out the effect on the card. Then, discard the card to Discard Pile. 
+
+Note: Anti-Vaccine Movement Card can only be used for the first action of each turn.
 
 > 公開カードから１枚選択し、そこに記載されている効果を実行します。使用したカードは、カード廃棄場に置きます。 ※「反ワクチン運動」カードは、各ターンの初回アクションでのみ使用可能
 
 #### 3. Repeat Twice - 繰り返し
 
-Repeat 2. two more times. As a result, patient player will perform 2. three times in total.
+Repeat 手順2 two more times. In total, the Patient player performs 手順2 three times.
 
 > (2)をもう2回繰り返し、合計3回実施
 
-#### Patient Wins - 患者役の勝利
+#### Game End; Patient Wins - 患者役の勝利
 
-If, as the results of 2., all virus and parasite is killed, the Patient wins.
+If, as the results of 2, all virus and parasite is killed, the Patient wins.
 This round is over.
 
 > | (2)の結果、的中やカード使用によってウイルス・寄生虫が０体になった場合 | 
@@ -302,7 +301,7 @@ The Virus do growth of viruses/parasites in accordance with the following rules.
 
 > 注射をしたマスに貼ります。シールを貼ったタイミングでは、このマスにウイルス・寄生虫はいなかったことになります。
 
-#### Lost Sticker - 喪失シール
+#### Losst Organ Sticker - 喪失シール
 
 > 喪失した臓器中央に貼ります。今後、この臓器にウイルス・寄生虫の配置はされませんし、注射をすることもできません。
 
