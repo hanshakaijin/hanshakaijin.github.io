@@ -1,6 +1,6 @@
 ---
 layout: default
-title: To Be Dead in 10 Turns T-Shirt - 10ターン後に死ぬTシャツ English Rule
+title: To Be Dead in 10 Turns T-Shirt - 10ターン後に死ぬTシャツ English Rulebook (Tentative Translation)
 ---
 
 
@@ -48,18 +48,18 @@ In this game, one "patient player" and one or more "virus players" fight. The bo
 ### The Goal of the Patient - 患者役の目的
 
 - To exterminate all viruses and parasites on your body by the 10th turn.（10ターン後とは10ターン終了後なのか？）
-<!---killに統一した方がわかりやすいでしょうか？--->
+<!---killに統一した方がわかりやすいでしょうか？---><!--ここはexterminateでvirus/parasiteステッカーをはがすことをkillで統一しましょう-->
 
 > - 10ターン後にウイルス・寄生虫が配置されていないこと。 
 
-### The Goals of the Virus - 
+### The Goals of the Virus Team <!--一時的にTeamで統一します。最後にすわりが悪いようならVirus Player/Patient Player等も含め、統一を検討しましょう-->- 
 
 To meet one of the following conditions.
 
-- Place one parasite on all of the Patient's three organs; heart, left kidney, and right kidney. If one kidney is lost, place one parasite on the heart and the remaining kidney.
-- At the end of the game (after the 10th Patient's turn), one or more viruses/parasites are placed on the Patient's body.
+- One or more parasites/viruses are placed on all of Patient's following three organs; heart, left kidney, and right kidney. If one kidney is already lost, place one parasite on the heart and the remaining kidney.
+- At the end of the game (after the Patient's 10th action), one or more viruses/parasites are placed on the Patient's body.
 <!---One or more viruses or parasites are placed on the patient player's body in the 10th turn.--->
-<!--- ゲーム終了時の勝利条件をafter the 10th Patient's turnとしましたが違和感ありますか？ --->
+<!--- ゲーム終了時の勝利条件をafter the 10th Patient's turnとしましたが違和感ありますか？ ---><!--after the Patient's action the 10th turnまたはPatient's 10th action-->
 
 > ※以下のどちらか
 > - 10ターン後にウイルス・寄生虫が配置されていること。 
@@ -73,10 +73,10 @@ To meet one of the following conditions.
 
 ![Setup Image]({{site.baseurl}}/images/10turntshirt/setup.png)
 
-- Play rock-paper-scissors. The player who loses plays as "Patient." Other players play as "Virus." 
+- Play rock-paper-scissors to determine a Patient. The player who loses plays as "Patient Other players play as "Virus." 
 - The Patient wears the "Battle T-Shirt." The front of the T-shirt is printed with upside down letters.
-- Perform "Zero-point Adjustment."
-- Turn all 治療 cards face down, shuffle them, and pick 10 cards. 
+- Adjust the front and back positon of the Battle T-shirt by performing "Zero-point Adjustment."
+- Turn all Treatment Cards face down, shuffle them, and pick 10 cards. 
 - Stack 10 cards face down, to form a draw deck. (Other cards will be not used in this round.)
 - Distribute 1 sticker sheet to each player. (If a player runs out of sticker during the game, take a new sticker sheet.)
 - The Virus places their first 5 virus stickers (shown below) in any five of the all squares.
@@ -199,7 +199,7 @@ The number of dice is usually 3. It is 2 if "Near Hit" is occured on the most re
 
 #### 2. Growth of Viruses or Parasites - ウイルス・寄生虫の増殖
 
-Select one from the dice you rolled. 
+Choose one [何を？さいころ？] from the dices you rolled. 
 You also select one of the placed viruses/parasites and place a new virus/parasite as far away from that square as the number of the selected dice rolls.
 (Place new virus if you select virus. Place new parasite if you select parasite.)
 
@@ -364,8 +364,7 @@ The Patient loses the Liver, consequently killing all Viruses and Parasites in t
 
 ![Constipation Card]({{site.baseurl}}/images/10turntshirt/card_5.png)
 
-The Patient loses either<!--希望の--> Lung, consequently killing all Viruses and Parasites in the lost Lung. If both lungs are lost, Patient cannot breathe during the round.
-<!--game⇒roundに変えてしまいました。-->
+The Patient loses either<!--希望の--> Lung, consequently killing all Viruses and Parasites in the lost Lung. If both lungs are lost, Patient is unable to breathe during the round.
 
 > 患者役が指定したどちらかの肺を喪失する。肺が二つとも失われると、患者役はゲーム中息をしてはいけない。
 
@@ -377,40 +376,49 @@ Inject into anywhare,
 
 ![Constipation Card]({{site.baseurl}}/images/10turntshirt/card_8.png)
 
-The card kills all Viruses/Parasites in Heart and Kidneys.
+The card kills all Viruses/Parasites in the Heart and Kidneys.
 
 > 心臓と腎臓のウイルスと寄生虫をすべて死滅させる。
 
 ![Constipation Card]({{site.baseurl}}/images/10turntshirt/card_9.png)
 
+The Patient chooses one of the kidneys. Instead, the Patient is able to carry out two additional actions.
+
 > 患者役が指定したどちらかの腎臓を喪失する。かわりに、このターンの患者役は、さらに2回、追加のアクションができる。
 
 ![Constipation Card]({{site.baseurl}}/images/10turntshirt/card_10.png)
 
-The card kills all Parasites in the Intestines.
+The card kills all Parasites in [on?] Patient's Intestines.
 
 > 腸の寄生虫をすべて死滅させる。
 
 ![Constipation Card]({{site.baseurl}}/images/10turntshirt/card_11.png)
 
+The Patient remains immortal during the turn.
 
 > このターンの間、患者役は何があっても死なない。
 
 ![Constipation Card]({{site.baseurl}}/images/10turntshirt/card_12.png)
 
-The Patient loses their Appendix.
+The Patient loses the Appendix.
 
 > 盲腸を喪失する。
 
 ![Constipation Card]({{site.baseurl}}/images/10turntshirt/card_13.png)
 
+The Virus Team places virus on one of the following organs; Esophagus, Stomach, or Intestines. The new turn begins.
+
 > ウイルス役は、食道、胃、腸のどこかにウイルスを設置する。そしてただちに次のターンになる。
 
 ![Constipation Card]({{site.baseurl}}/images/10turntshirt/card_14.png)
 
+The card nullifies the growth through the Esophagus [on？食道だけ？胃なども？] during the turn.
+
 > このターンの間、食道を通じた増殖はできなくなる。
 
 ![Constipation Card]({{site.baseurl}}/images/10turntshirt/card_15.png)
+
+When the Patient uses this card at the beginning of the turn, the Patient is able to use four cards instead of using Injection.
 
 > このカードをターン開始時に出すと、このターンの間、患者役は注射ができなくなるかわりに、カード4枚を使用できる。
 
@@ -424,16 +432,18 @@ The Patient loses their Appendix.
 
 ![Constipation Card]({{site.baseurl}}/images/10turntshirt/card_18.png)
 
-The card allows the Patient to touch their back for 5 seconds.
+The card allows the Patient to touch the Patient's back for five seconds.
 
 > 患者役は5秒間、自分の背中を触ることができる。
 
 ![Constipation Card]({{site.baseurl}}/images/10turntshirt/card_19.png)
 
+The Virus Team presses four squares chosen by the Patient.
+
 > ウイルス役は、患者役が指定した4マスを押す。
 
 ![Constipation Card]({{site.baseurl}}/images/10turntshirt/card_20.png)
 
-The Virus relieves the weariness of the game<!--なんの疲れ？←ゲームの疲れでOKですｗ--> by giving massage to the Patient.
+The Virus Team relieves the Patient's weariness of the game by giving massage to the Patient.
 
 > ウイルス役は、患者役の肩を叩いたり揉んだりして、疲れを癒す。
