@@ -33,35 +33,36 @@ Your team members look at each other and, with great reluctance, called a quiet 
 
 ## Objective of the Game - ゲームの目的・概要
 
-To Be Dead in 10 Turns T-Shirt is a game played between one patient player and one or more virus players fight over dominance of the patient's body. 
+To Be Dead in 10 Turns T-Shirt is a game played between one patient player and one virus player fight over dominance of the patient's body. 
 
-The board of the game is the patient player's body! 
+The board of the game is the real patient player's body! 
 
 <!--
 > 「患者役」1人と「ウイルス役」1人以上にわかれて、対戦形式でゲームをおこないます。ゲームの盤面は患者役自身の肉体です！ 
 -->
 
-### Goal of the Patient - 患者役の目的
+### Goal of the Patient Player - 患者役の目的
 
-- To exterminate all viruses and parasites on your body by the 10th turn.（10ターン後とは10ターン終了後なのか？）
-<!---killに統一した方がわかりやすいでしょうか？---><!--ここはexterminateでvirus/parasiteステッカーをはがすことをkillで統一しましょう-->
+- To exterminate all viruses and parasites from the patient's body by the 10th turn
 
+<!--
 > - 10ターン後にウイルス・寄生虫が配置されていないこと。 
+-->
 
-### The Goals of the Virus Team <!--一時的にTeamで統一します。最後にすわりが悪いようならVirus Player/Patient Player等も含め、統一を検討しましょう-->- 
+### Goals of the Virus Player - ウイルス役の目的
 
-To meet one of the following conditions.
+The virus player has two goals. 
 
-- One or more parasites/viruses are placed on all of Patient's following three organs; heart, left kidney, and right kidney. If one kidney is already lost, place one parasite on the heart and the remaining kidney.
-- At the end of the game (after the Patient's 10th action), one or more viruses/parasites are placed on the Patient's body.
-<!---One or more viruses or parasites are placed on the patient player's body in the 10th turn.--->
-<!--- ゲーム終了時の勝利条件をafter the 10th Patient's turnとしましたが違和感ありますか？ ---><!--after the Patient's action the 10th turnまたはPatient's 10th action-->
+- 1-9th turn: place at least one parasite on all of patient's following three organs; heart, left kidney, and right kidney. If one kidney is already lost, place one parasite on the heart and the remaining kidney. 
+- 10th turn: place at least one virus or parasite on the patient's body at the end of the 10th turn. 
 
+<!--
 > ※以下のどちらか
 > - 10ターン後にウイルス・寄生虫が配置されていること。 
 > - それよりも早く、心臓1箇所＋腎臓2箇所（喪失している場合は1箇所）のすべてに寄生虫を配置すること。 
+-->
 
-## Game Components - カード構成・内容物
+## Components - カード構成・内容物
 
 ![Components Image]({{site.baseurl}}/images/10turntshirt/components.png)
 
@@ -69,16 +70,17 @@ To meet one of the following conditions.
 
 ![Setup Image]({{site.baseurl}}/images/10turntshirt/setup.png)
 
-- Play rock-paper-scissors to determine a Patient. The player who loses plays as "Patient Other players play as "Virus." 
-- The Patient wears the "Battle T-Shirt." The front of the T-shirt is printed with upside down letters.
-- Adjust the front and back positon of the Battle T-shirt by performing "Zero-point Adjustment."
-- Turn all Treatment Cards face down, shuffle them, and pick 10 cards. 
-- Stack 10 cards face down, to form a draw deck. (Other cards will be not used in this round.)
-- Distribute 1 sticker sheet to each player. (If a player runs out of sticker during the game, take a new sticker sheet.)
-- The Virus places their first 5 virus stickers (shown below) in any five of the all squares.
+- The players play rock-paper-scissors to determine a patient. The player who loses plays as a patient player and another play as a virus player.
+- The patient wears the Battle T-Shirt. The letters on the front of the T-shirt are printed upside down.
+- Adjust front and back side of the Battle T-shirt by performing Zero-point Adjustment.
+- Turns all Treatment Cards face down, shuffles them, and picks 10 cards.
+- Stack 10 cards face down to form a Draw Pile. Other Treatment Cards will not be used in this round. 
+- Distribute 1 sticker sheet to each player. (If a player runs out of sticker during the game, take a new sticker sheet.) 
+- The virus player places their first 5 virus stickers (shown below) in any 5 of the all squares of the Battle T-shirt.
 
 ![Virus Sticker]({{site.baseurl}}/images/10turntshirt/sticker_virus.png)
 
+<!--
 > - じゃんけんで患者役を決めます。 
 > - 患者役はバトルTシャツを着ます。※Ｔシャツは背面が正常な文字方向、腹面がさかさまの文字方向になります。 
 > - Ｔシャツの位置合わせ（ゼロ点調整）をします。 
@@ -86,16 +88,17 @@ To meet one of the following conditions.
 > - その10枚を中央に裏向きに重ねて、山札を作ります。 
 > - 患者役、ウイルス役それぞれにシールシートを配ります。※ゲーム中にシールが不足したら、適宜新しいシールシートを使ってください。 
 > - ウイルス役は初期配置として、任意の５マスにウイルスを配置します。下に示すウイルスシールを貼ります。
+-->
 
-### Tips: Adjustmenting Position of the Battle T-shirt - 位置合わせ（ゼロ点調整） 
+### TIPS: Adjustmenting Sides of the Battle T-shirt (Zero-point Adjustment) - 位置合わせ（ゼロ点調整） 
 
+Depending on the patient player's posture and body shape, print on the front and back side could be off.
 
-Depending on the Patient's posture and body shape, the print on the front and the back could be off. 
+The virus player can help the adjustment by pressing a specific square on the patient player's back, allowing the patient player to recognize the gap between the front and the back prints.
 
-The Virus Team can help the adjustment by pressing a specific square on the Patient's back, allowing the Patient to catch the misalignment between the front and the back prints.
+We recommend to press some of the end squares, such as D1 and G12.	
 
-We recommend to press some of the end squares, such as D1 and G12.
-
+<!--
 > Ｔシャツは着る人のクセや体形により、腹面と背面の上下方向の高さが微妙にずれます。 
 > 
 > そのため、ウイルスが背面の特定箇所を押してあげることで、患者役は腹面と背面のズレを把握できます。 
@@ -103,46 +106,55 @@ We recommend to press some of the end squares, such as D1 and G12.
 > これにより、背中を押された感覚から、腹面のどのマスに当たるかが推測できるようになります。 
 > 
 > D1、G12など、いくつかの端のマスで実施することをおすすめします。 
+-->
 
 ### TIPS：How to Place Virus/Parasite Stickers - ウイルス・寄生虫シールの貼り方 
 
-When putting a virus/parasite stickers on the square on the back of the T-shirt, Virus should place the sticker while pressing firmly with their finger, so that the Patient can sense where the sticker has been placed.
+When putting a virus/parasite sticker on the square on the back of the Battle T-shirt, the virus player should place the sticker while pressing firmly with their fingers, so that the patient player can sense where the sticker has been placed. 
 
 ![Pressing Image]({{site.baseurl}}/images/10turntshirt/jerk.png)
 
+<!--
 > ウイルス・寄生虫の配置は、対応するシールをマスに貼ることで実現されます。 
 >
 > その際、どこに貼っているのか患者役がわかるように「ぐいっ」と指で押しながら貼ってください。 
+-->
 
 ## Playing the Game - ゲームの進行
 
-Each turn consists of the Patient's action and the Virus Team's action. The Patient starts each turn.
+Every turn consists of the patient player's action and the virus player's action. The patient player starts each turn. 
 
+<!--
 > 毎ターン、患者役とウイルス役がそれぞれ行動します。まず患者役から始まります。
+-->
 
-### A. The Patient's Turn - 患者役ターン
+### A. Patient player's Turn - 患者役ターン
 
-The Patient carries out 手順1 through 手順3 in order.
+The patient player carries out the following: 
 
+<!--
 > 患者役は(1)～(3)を順番に実施します。 
+-->
 
-#### 1. Revealing [カード公開をrevealというのかは要チェック] the Card - カード公開
+#### 1. Revealing a Treatment Card - カード公開
 
-The Patients draws the topmost card of the Draw Deck and show the card to all players.
+The patient player draws the topmost card of the Draw Deck and show the card to all players.
 
+<!--
 > 山札の上から1枚を引き、公開します。
+-->
 
-#### 2. Carrying Out Injection or [あとで見直し] Card - どちらかのアクションを実行
+#### 2. Injection and Use of Treatment Cards - どちらかのアクションを実行
 
 ##### Injection - 注射
 
 ![Injection Sticker]({{site.baseurl}}/images/10turntshirt/sticker_injection.png)
 
-The Patient chooses one square to give an "Injection."<!--現実世界ですべきアクションを書きました！-->
-The Patient announces the Virus Team which square to inject.
-Depending on the placement of virus/parasite on the square and surrounding squares, there will be three results.<!--あとでやる 3 results.-->
+The patient player calls out a letter and a number that identifies a row and column the player wishes to inject. The virus player checks that coordinate on the Battle T-Shirt and responds verbally. Depending on the placement of virus/parasite on the square and 8 surrounding squares, there are 3 results.
 
+<!--
 > マスを1つ選択し、そこに注射を打ちます。 患者役は注射を打つマスをウイルス役に伝えてください。ウイルス・寄生虫の配置状況によって、結果は3つに分かれます。（変更後：患者を）
+-->
 
 | If there is virus/parasite is placced on the injected square | If there is no virus/parasite on the injected square, but one (or more) virus or parasite on surrounding 8 squares | If there is no virus or parasite on the injected square and surrounding 8 squares |
 | --- | --- | --- |
