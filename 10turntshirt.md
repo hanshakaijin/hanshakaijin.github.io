@@ -7,45 +7,41 @@ title: To Be Dead in 10 Turns T-Shirt - 10ターン後に死ぬTシャツ Englis
 ![To Be Dead in 10 Turns T-Shirt]({{site.baseurl}}/images/10turntshirt/titlep.png)
 ![Game Spec]({{site.baseurl}}/images/10turntshirt/spec.png)
 
-# To Be Dead in 10 Turns T-Shirt - 10ターン後に死ぬTシャツ English Rule
+# To Be Dead in 10 Turns T-Shirt - 10ターン後に死ぬTシャツ English Rulebook
 
 ## Prologue - はじめに
 
-A long time ago in a galaxy far, far away, a city was destroyed by a novel virus.
+A long time ago, in a galaxy far, far away, a city was destroyed by a novel virus.
 
-You are a member of the specialist team that has been dispatched to investigate a laboratory in the city.
+You are a member of the specialist team that has been dispatched to investigate a laboratory in the city. Inside the cleanroom, your team has discovered a mysterious T-shirt. The writing on the T-shirt reads; "You will die in 10 turns."
 
-Inside the cleanroom, your team has discovered a mysterious T-shirt.
+Your team members were skeptical at first, but they finally concluded that one member has to wear the t-shirt to test the effects of it. 
 
-The writing on the T-shirt reads; “You will die in 10 turns.”
-
-Your team members were skeptical at first, but they finally concluded that one member has to wear the t-shirt to test the effects of it.
-
-But who would do that?
-
-"I don't want to be the one wearing it!"
-
-Every team member murmured.
-
-Then, the ruthless voice of the leader echoed.
+But who would do that? "I don't want to be the one wearing it!" Every team member murmured. Then, the ruthless voice of the leader echoed.
 
 "We will decide by playing rock-paper-scissors. Whoever loses wears the t-shirt."
 
 Your team members look at each other and, with great reluctance, called a quiet battle cry…
 
+<!--
 > かつて新型ウイルスの感染爆発（パンデミック）で滅んだ某国某市。廃墟と化したウイルス研究所にWHO（世界保健機構）感染症特別対策チームの調査隊が派遣された。そこで発見された一着のTシャツ。研究所の最深部、クリーンルームに厳重に保管されていたそれは「10ターン後に死ぬ」とプリントされた、世にも恐ろしい代物だった……。その効果に疑問の目を向ける研究員たちだが、実際に誰かが着て、臨床試験をしないことには信憑性がわからないという結論に至った。「自分は着たくない！」と泣き喚く研究員たちに、WHO長官の鶴の一声がこだまする。 
 > 
 > 「……じゃんけんで負けた奴が着ろ！　しからば、すべての疑問が解き明かされる」
 > 
 > あなたたち研究員は互いに目を見合わせ、静かにこぶしを振り上げるのだった……。
+-->
 
-## Objective - ゲームの目的・概要
+## Objective of the Game - ゲームの目的・概要
 
-In this game, one "patient player" and one or more "virus players" fight. The board of the game is the patient player's body! 
+To Be Dead in 10 Turns T-Shirt is a game played between one patient player and one or more virus players fight over dominance of the patient's body. 
 
+The board of the game is the patient player's body! 
+
+<!--
 > 「患者役」1人と「ウイルス役」1人以上にわかれて、対戦形式でゲームをおこないます。ゲームの盤面は患者役自身の肉体です！ 
- 
-### The Goal of the Patient - 患者役の目的
+-->
+
+### Goal of the Patient - 患者役の目的
 
 - To exterminate all viruses and parasites on your body by the 10th turn.（10ターン後とは10ターン終了後なのか？）
 <!---killに統一した方がわかりやすいでしょうか？---><!--ここはexterminateでvirus/parasiteステッカーをはがすことをkillで統一しましょう-->
