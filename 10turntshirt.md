@@ -128,7 +128,7 @@ Every turn consists of the patient player's action and the virus player's action
 > 毎ターン、患者役とウイルス役がそれぞれ行動します。まず患者役から始まります。
 -->
 
-### A. Patient player's Turn - 患者役ターン
+### A. Patient Player's Turn - 患者役ターン
 
 The patient player carries out the following: 
 
@@ -136,7 +136,7 @@ The patient player carries out the following:
 > 患者役は(1)～(3)を順番に実施します。 
 -->
 
-#### 1. Revealing a Treatment Card - カード公開
+#### (1) Revealing a Treatment Card - カード公開
 
 The patient player draws the topmost card of the Draw Deck and show the card to all players.
 
@@ -144,7 +144,7 @@ The patient player draws the topmost card of the Draw Deck and show the card to 
 > 山札の上から1枚を引き、公開します。
 -->
 
-#### 2. Injection and Use of Treatment Cards - どちらかのアクションを実行
+#### (2) Action (Injection and Use of Treatment Cards) - どちらかのアクションを実行
 
 ##### Injection - 注射
 
@@ -156,119 +156,138 @@ The patient player calls out a letter and a number that identifies a row and col
 > マスを1つ選択し、そこに注射を打ちます。 患者役は注射を打つマスをウイルス役に伝えてください。ウイルス・寄生虫の配置状況によって、結果は3つに分かれます。（変更後：患者を）
 -->
 
-| If there is virus/parasite is placced on the injected square | If there is no virus/parasite on the injected square, but one (or more) virus or parasite on surrounding 8 squares | If there is no virus or parasite on the injected square and surrounding 8 squares |
+| If there is virus/parasite is placced on the injected square | If there is no virus/parasite on the injected square, but placed on the 8 surrounding squares | If there is no virus or parasite on either the injected square or 8 surrounding squares |
 | --- | --- | --- |
-| **Hit** | **Almost** | **Failed** |
-| Virus/parasite on the injected square is successfully killed. The Virus Team must inform the Patient whether the dead organism was a virus or a parasite. Then, remove the virus/parasite sticker. In addition, as a Hit bonus, the Patient can give one more Injection. | The Virus Team must inform the Patient of the "Almost" hit. Then, if the Virus Team has not moved a dice to the Temporary Discard Pile on this turn, move one dice to the Temporary Discard Pile. Virus Team will use 2 dices during this turn. | The Virus Team must inform the Patient that the Patient "Failed". |
+| **Hit** | **Almost** | **Miss** |
+| The Injection successfully killed the virus or parasite (Hit.) The virus player must inform the patient player whether the dead organism was a virus or a parasite. Then, remove the sticker. In addition, as a Hit bonus, the patient player can perform one more Injection. | The virus player must inform the patient player must inform the Injection "Almost" hit. Then, the virus player moves 1 dice to the Temporary Discard Pile if the virus player has not moved a dice to the Temporary Discard Pile on this turn. The virus player will use 2 dices for the rest of the turn. | The virus player must inform the patient player that the patient player "Missed." |
 
+<!--
 > | 注射マスにウイルス・寄生虫がいた場合 | 注射マスにはウイルス・寄生虫がいなかったが、周囲8マスに1体以上いた場合 |  注射マスにも周囲8マスにもウイルス・寄生虫がいなかった場合 |
 > | --- | --- | --- |
 > | **的中** | **ニア** | **スカ** |
 > | 注射マスにいたウイルス・寄生虫は「死滅」します。<br>ウイルス役は、死滅したのがウイルスなのか寄生虫なのかを患者役に伝え、背面のそのマスのウイルス・寄生虫シールを剥がしてください。<br>さらに、的中ボーナスとして、患者役はもう一度注射を実施します。 | ウイルス役は、ニアであることを患者役に伝えます。<br>また、このターンにサイコロを1個も一時廃棄場に移動させていない場合は、１個を一時廃棄場に移動させます。<br>（このターンのウイルス役のサイコロの数が2個になります） | ウイルス役はスカであることを患者役に伝えます。 |
+-->
 
-##### Using a Card - カード使用
+##### Using a Treatment Card - カード使用
 
 ![Back of Card Image]({{site.baseurl}}/images/10turntshirt/card_back.png)
 
-The Patient chooses a card from the 公開カード. Carry out the effect on the card. Then, discard the card to Discard Pile. 
+The patient player chooses a Treatment Card from the Build Pile and carries out the effect of the card. Then, discard the Treatment Card to the Discard Pile.
 
-Note: Anti-Vaccine Movement Card can only be used for the first action of each turn.
+Note: Anti-Vax Movement Card can only be used for the first action of each turn.
 
+<!--
 > 公開カードから１枚選択し、そこに記載されている効果を実行します。使用したカードは、カード廃棄場に置きます。 ※「反ワクチン運動」カードは、各ターンの初回アクションでのみ使用可能
+-->
 
-#### 3. Repeat Twice - 繰り返し
+#### (3) Repeat - 繰り返し
 
-Repeat 手順2 two more times. In total, the Patient player performs 手順2 three times.
+Perform (2) two more times. The patient player performs (2) three times in total.
 
+<!--
 > (2)をもう2回繰り返し、合計3回実施
+-->
 
-#### Game End; Patient Wins - 患者役の勝利
+#### Game End; Patient Player Wins - 患者役の勝利
 
-If, as the results of 2, all virus and parasite is killed, the Patient wins.
-This round is over.
+If all viruses and parasites are exterminated as the result of (2), the patient player wins. This round is over.
 
+<!--
 > | (2)の結果、的中やカード使用によってウイルス・寄生虫が０体になった場合 | 
 > | 撲滅 |
 > | --- |
 > | 患者役の勝利として、ゲーム終了となります。  |
+-->
 
-### B. Virus's Turn - ウイルス役ターン
+### B. Virus Player's Turn - ウイルス役ターン
 
-The Virus must perform (1) through (4) in order.
+The virus player must perform (1) through (4) in order.
 
+<!--
 > ウイルス役は(1)～(4)を順番に実施します。
+-->
 
-#### 1. Roll Dices - サイコロを振る
+#### (1) Roll Dices - サイコロを振る
 
-Roll a certain number of dice.
-The number of dice is usually 3. It is 2 if "Near Hit" is occured on the most recent Patient's turn.
+The virus player rolls 3 dices. Roll 2 dices if "Almost" occurred on the most recent patient player's turn.
 
+<!--
 > サイコロの数は、通常は３個、患者役ターンでニアが出た場合は２個 となります。
+-->
 
-#### 2. Growth of Viruses or Parasites - ウイルス・寄生虫の増殖
+#### (2) Growth of Viruses or Parasites - ウイルス・寄生虫の増殖
 
-Choose one [何を？さいころ？] from the dices you rolled. 
-You also select one of the placed viruses/parasites and place a new virus/parasite as far away from that square as the number of the selected dice rolls.
-(Place new virus if you select virus. Place new parasite if you select parasite.)
+The virus player chooses one dice, and 1 sticker from the sticker that has been placed. Duplicate the sticker and move the second sticker as many squares as the number on the selected dice. (Duplicate the same species.)
 
+<!--
 > 振ったサイコロから１個選択します。また、残存するウイルス・寄生虫から1つを選択し、そのマスからサイコロの出目の数だけ離れたところに、新しいウイルス・寄生虫を配置します。（ウイルスを選択した場合はウイルス、寄生虫を選択した場合は寄生虫）
+-->
 
 ##### Mutation - 受肉
 
-If you are trying to place on a square that already be placed virus, the virus mutates into a parasite. 
-Remove the virus sticker and put a parasite sticker (shown below) on that square.
+When the virus player places 2 virus stickers on the same square, the viruses mutate into a parasite. Remove the virus stickers and put a parasite sticker (shown below) on the square.
 
 ![Injection Sticker]({{site.baseurl}}/images/10turntshirt/sticker_parasite.png)
 
+<!--
 > | すでにウイルスのいるマスに増殖する場合 | 
 > | 受肉 |
 > | --- |
 > | すでにウイルスのいるマスに増殖すると、ウイルスは「受肉」し、寄生虫に進化します。 ウイルスシールを剥がし、かわりに寄生虫シールを貼ってください。 |
+-->
 
-#### 3. Repeat - 繰り返し
+#### (3) Repeat - 繰り返し
 
-Perform 2. as many dice as there are left.
+Perform (2) as many times as the number of dice left.
 
+<!--
 > 残っているサイコロの数だけ(2)を実施
+-->
 
-#### 4. サイコロを一時廃棄場から戻す
+#### (4) Retrieve a Dice from the Temporary Discard Pile - サイコロを一時廃棄場から戻す
 
-If there is a dice on the temporary discard pile, put it back on the other dices.
+If there are only 2 dices, retrieve a dice from the Temporary Discard Pile.
 
+<!--
 > サイコロが２個の場合は、一時廃棄場から１個を戻します。 
+-->
 
 ### C. End of Turn - ターンの終了
 
-Check to see if the game's end condition is met.
+Check to see if any round end condition is met.
 
-| On turns 1st through 9th, if there is one parasite on all of Patient's three organs; heart, left kidney, and right kidney. If one kidney is lost, place one parasite on the heart and the remaining kidney | On 10th turn (there are no card in the draw deck) | Otherwise |
+On turns 1st through 9th, check if there is one parasite on all of the patient player's three organs; heart, left kidney, and right kidney. (One parasite on the heart and the remaining kidney if one kidney is lost.)
+
+| On turns 1st through 9th, check if there is one parasite on all of the patient player's three organs; heart, left kidney, and right kidney. (One parasite on the heart and the remaining kidney if one kidney is lost.) | On 10th turn (there are no card in the draw deck) | Otherwise |
 | --- | --- | --- |
 | **Die** | **Die** | **Continue** |
-| The Virus player wins. This round is over. As an exception, if the Patient used "Anti-Vax Movement" card on this turn, the Patient does not die. Proceed to the next turn. | After the 10th Patient's turn, if one or more viruses/parasites are placed on the Patient's body, the Virus player wins. This round is over. | On turns 1st through 9th, if the patient is not dead, proceed to the next turn. |
+| The virus player wins. This round is over. As an exception, if the patient player used "Anti-Vax Movement" card on the turn, the patient player does not die. Proceed to the next turn. | After the 10th patient player's turn, if one or more viruses/parasites are placed on the Patient player's body, the virus player wins. This round is over. | On turns 1st through 9th, the patient player is still alive. The round continues. |
 
+<!--
 > ゲームの終了条件を満たすか確認します。
 
 > | １～９ターン目 <br>かつ<br>心臓、腎臓の合計３箇所（腎臓を1つ喪失している場合は２箇所）のすべてにウイルスまたは寄生虫が存在する場合 | 10ターン目（山札が残っていない状態） | その他 |
 > | 死亡 | 死亡 | 継続 |
 > | ウイルス役の勝利として、ゲーム終了になります。<br>※ただし「大麻使用」カードが使われている場合、死亡せずに、次のターンに進みます。 | 10ターン目の患者役ターンが終了した時点で、ウイルス・寄生虫がまだ残っている場合は、ウイルス役の勝利として、ゲーム終了になります。 | １〜９ターン目で死亡していない場合、次のターンに進みます。 |
+-->
 
-### Cards Effect - カードの効果
+### Effects of Treatment Cards - カードの効果
 
-As an example, 治療 cards have the following effects written on it.
+The following are some effects of the Treatment cards.
 
-- **This card kills all Viruses/Parasites ... .** : Kills all Viruses/Parasites in the card's specified organ at the same time. The Virus must remove the killed virus/parasite stickers on the back of the T-shirt. 
-- **The Patient loses ... .** : Kills all Viruses/Parasites in the card's specified organ at the same time. The Virus must remove the killed virus/parasite stickers on the back of the T-shirt. In addition, the Virus must put a "lost" sticker (shown below) in the center of the organ. The Virus will no longer be able to do growth of viruses/parasites through the organ.
-- **This card prohibits growth of viruses/parasites throught ... .** : The Virus can not do growth of viruses/parasites throught the card's specified organ in this turn.
+- **The card kills all viruses/parasites ... .** : The card kills all viruses and parasites in the organ. The virus player must remove the killed virus/parasite stickers from the back of the Battle T-shirt.
+- **The patient player loses ... .** : The card kills all viruses and parasites in the organ. The virus player must remove the killed virus/parasite stickers from the back of the Battle T-shirt. Also, the virus player must put a Lost Sticker (shown below) on the center of the lost organ. The virus player will no longer be able to perform a virus or parasite growth through the organ.
+- **This card nullifies the growth of viruses/parasites through... .** : The virus player can not perform the growth of viruses/parasites through the organ in this turn.
 
 ![Lost Sticker]({{site.baseurl}}/images/10turntshirt/sticker_lost.png)
 
 There are also other cards with various effects. Follow what is written on the card. 
 
-In addition, each card shows the affected squares by coloring them.
-For example, "Smoking" card (shown below) is colored on the left and right Lungs. Because this card will affect either Lung.
+Each card affects its colored organ. For example, the Smoking Card (shown below) affects both lungs.
 
 ![Smoking Card]({{site.baseurl}}/images/10turntshirt/card_5.png)
 
+<!--
 > カードには、代表的なものとして、下記のような効果が書かれています。 
 > 
 > - ～を死滅させる：指定された臓器に存在するすべてのウイルス・寄生虫は同時に「死滅」します。 
@@ -278,20 +297,22 @@ For example, "Smoking" card (shown below) is colored on the left and right Lungs
 > ほかにも特殊な効果が書かれたカードもありますので、記載内容にしたがってください。 
 > 
 > なお、カードには効果のあるマスが色で示されています。例えば上の「喫煙」カードは、どちらかの肺に効果があるものなので、そのマスが着色されています。
+-->
 
-### Restrictions on Growth - 増殖のルール
+### Basic Rules of Growth - 増殖のルール
 
-The Virus do growth of viruses/parasites in accordance with the following rules.
+The virus player may perform the growth by following the rules:
 
-- At first, inform the Patient whether it is a virus's or a parasite's growth.
-- One by one square, press firmly the squares in the growth pathway with their finger while counting aloud. Press also the square that the growth is coming from.
-- Don't go through the same squares in one growth pathway. In other words, the pathway is a single stroke.
-- When their finger reaches the last square, put a virus/parasite sticker on it.
-- If a card that prohibit the growth through any organ is used on this turn, follow that restriction.
-- The growth pathway of viruses must be through connected squares. However, the growth pathway of parasites can be through unconnected squares. That means parasites can penetrate the walls of organs.
+- Inform the patient whether it is a virus or a parasite growth.
+- Press every square in the growth pathway with the finger while counting aloud. Press the first virus/parasite as well.
+- Don't go through the same squares in one growth pathway. In other words, the growth pathway must be a single stroke.
+- Put a new virus/parasite sticker after pressing the last square.
+- If the patient player uses a card that nullifies growth through an organ, the virus player must follow the restriction.
+- The growth pathway of viruses must be connected squares. However, the growth pathway of parasites can be unconnected squares as parasites can penetrate the walls of organs.
 
 ![Pathway Image]({{site.baseurl}}/images/10turntshirt/pathway.png)
 
+<!--
 > 増殖の際には、下記のルールを守る必要があります。
 > - 始めに、増殖するのがウイルスなのか寄生虫なのかを患者役に伝える。
 > - １マスずつ声に出しながら、増殖経路のマスを指で押していく。（移動開始のマスも、しっかり押す）
@@ -299,27 +320,58 @@ The Virus do growth of viruses/parasites in accordance with the following rules.
 > - 最後のマスまで到達してから、そこにウイルス・寄生虫シールを貼る。
 > - 患者役のターンで、増殖経路を制限するカードが使用されている場合、その制限にしたがう。
 > -  ウイルスはつながっているマスを経由した増殖のみできる。ただし、寄生虫はつながっていないマスを経由した増殖ができる（臓器の壁を貫通した増殖ができる）。
+-->
 
 ### TIPS : How to Use Stickers for Patient Player - 患者役のシールの使い方
 
+The patient player may put following four stickers on the front of the Battle T-shirt to help with memory.
+
+The patient player can put/remove stickers at any time during the game, and put it any square. Recommended usage is as follows.
+
+<!--
 > 患者役は、記憶の補助として4種のシールを腹面のマスに使うことができます。
 > いつ貼っても剥がしてもよく、使い方は自由ですが、一例をご紹介します。
+-->
 
 #### Injection Sticker - 注射シール
 
+![Injection Sticker]({{site.baseurl}}/images/10turntshirt/sticker_injection.png)
+
+Put it on the injected square. It is indicates that there is no virus/parasite in this square at this time.
+
+<!--
 > 注射をしたマスに貼ります。シールを貼ったタイミングでは、このマスにウイルス・寄生虫はいなかったことになります。
+-->
 
 #### Losst Organ Sticker - 喪失シール
 
+![Lost Organ Sticker]({{site.baseurl}}/images/10turntshirt/sticker_lost.png)
+
+Put it on the center of the lost organ. The virus player will no longer be able to perform a virus or parasite growth through the organ. Therefore, the patient player doesn't need to give a injection to any squares in the organ.
+
+<!--
 > 喪失した臓器中央に貼ります。今後、この臓器にウイルス・寄生虫の配置はされませんし、注射をすることもできません。
+-->
 
 #### Green Flag Sticker - 旗（緑）
 
+![Green Flag Sticker]({{site.baseurl}}/images/10turntshirt/sticker_flag_green.png)
+
+Put it on the square that you takes a guess when the virus player puts a **virus** sticker.
+
+<!--
 > ウイルスが配置された際に、おそらくこのマスだろうという予想として貼ります。これを目安に注射をしていきましょう。
+-->
 
 #### Blue Flag Sticker - 旗（青）
 
+![Blue Flag Sticker]({{site.baseurl}}/images/10turntshirt/sticker_flag_blue.png)
+
+Put it on the square that you takes a guess when the virus player puts a **parasite** sticker.
+
+<!--
 > 同様に、寄生虫が配置された際に、予想として貼ります。
+-->
 
 ### TIPS : How to Reveal a Card - カードの公開について
 
