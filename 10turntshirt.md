@@ -123,6 +123,8 @@ When putting a virus/parasite sticker on the square on the back of the Battle T-
 
 Every turn consists of the patient player's action and the virus player's action. The patient player starts each turn. 
 
+![Turn Image]({{site.baseurl}}/images/10turntshirt/turn.png)
+
 <!--
 > 毎ターン、患者役とウイルス役がそれぞれ行動します。まず患者役から始まります。
 -->
