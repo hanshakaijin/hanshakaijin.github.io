@@ -404,6 +404,8 @@ When you run out of sticker sheets, you can use commercially available stickers 
 You can find stickers like the one below in Japanese stationery stores.
 They are called "カラーシール", "丸ラベル" and "ポイントシール".
 
+![Color Sticker]({{site.baseurl}}/images/10turntshirt/colorsticker.png)
+
 <!--
 > 同梱されていたシールがなくなった場合には、市販のシールをかわりにご利用いただくことをおすすめします。
 > 100円ショップや文房具店などで「カラーシール」「丸ラベル」「ポイントシール」などの名前で販売されています。
@@ -428,7 +430,7 @@ The card nullifies growth during the turn. At the same time, it prohibits the pa
 > このターンの間、腸を通じた増殖はできなくなる。ただし患者役は、その間、トイレに行けなくなる。
 -->
 
-![Constipation Card]({{site.baseurl}}/images/10turntshirt/card_3.png)
+![Diarrhea Card]({{site.baseurl}}/images/10turntshirt/card_3.png)
 
 The card kills all viruses and parasites in the intestines.
 
@@ -436,7 +438,7 @@ The card kills all viruses and parasites in the intestines.
 > 腸のウイルスと寄生虫をすべて死滅させる。
 -->
 
-![Constipation Card]({{site.baseurl}}/images/10turntshirt/card_4.png)
+![Heavy Drinking Card]({{site.baseurl}}/images/10turntshirt/card_4.png)
 
 The patient player loses the liver, consequently killing all viruses and parasites in the liver. The card also prohibits the patient player from drinking alcohol during the round.
 
@@ -444,7 +446,7 @@ The patient player loses the liver, consequently killing all viruses and parasit
 > 肝臓を喪失する。患者役はこのゲーム中、飲酒ができなくなる。
 -->
 
-![Constipation Card]({{site.baseurl}}/images/10turntshirt/card_5.png)
+![Smoking Card]({{site.baseurl}}/images/10turntshirt/card_5.png)
 
 
 The patient player loses either lung, consequently killing all viruses and parasites in the lost lung. If both lungs are lost, the patient player is unable to breathe during the round.
@@ -453,7 +455,7 @@ The patient player loses either lung, consequently killing all viruses and paras
 > 患者役が指定したどちらかの肺を喪失する。肺が二つとも失われると、患者役はゲーム中息をしてはいけない。
 -->
 
-![Constipation Card]({{site.baseurl}}/images/10turntshirt/card_7.png)
+![Big Injection Card]({{site.baseurl}}/images/10turntshirt/card_7.png)
 
 The card kills all viruses and parasites in the square designated by the patient and the eight squares surrounding the square. However, the Hit bonus does not apply.
 
@@ -461,7 +463,7 @@ The card kills all viruses and parasites in the square designated by the patient
 > 患者役が指定したマスと周囲8マスのウイルスと寄生虫をすべて死滅させる。ただし的中ボーナスは適用されない。
 -->
 
-![Constipation Card]({{site.baseurl}}/images/10turntshirt/card_8.png)
+![Autohemotherapy Card]({{site.baseurl}}/images/10turntshirt/card_8.png)
 
 The card kills all viruses and parasites in the patient's heart and kidneys.
 
@@ -469,7 +471,7 @@ The card kills all viruses and parasites in the patient's heart and kidneys.
 > 心臓と腎臓のウイルスと寄生虫をすべて死滅させる。
 -->
 
-![Constipation Card]({{site.baseurl}}/images/10turntshirt/card_9.png)
+![Organ Trade Card]({{site.baseurl}}/images/10turntshirt/card_9.png)
 
 The patient player must choose one kidney to be lost. Instead, the patient player can carry out 2 additional actions.
 
@@ -477,7 +479,7 @@ The patient player must choose one kidney to be lost. Instead, the patient playe
 > 患者役が指定したどちらかの腎臓を喪失する。かわりに、このターンの患者役は、さらに2回、追加のアクションができる。
 -->
 
-![Constipation Card]({{site.baseurl}}/images/10turntshirt/card_10.png)
+![Pinworm Test Card]({{site.baseurl}}/images/10turntshirt/card_10.png)
 
 
 The card kills all parasites in the patient's intestines.
@@ -486,7 +488,7 @@ The card kills all parasites in the patient's intestines.
 > 腸の寄生虫をすべて死滅させる。
 -->
 
-![Constipation Card]({{site.baseurl}}/images/10turntshirt/card_11.png)
+![Smoking Weed Card]({{site.baseurl}}/images/10turntshirt/card_11.png)
 
 The patient player remains immortal during the turn.
 
@@ -494,7 +496,7 @@ The patient player remains immortal during the turn.
 > このターンの間、患者役は何があっても死なない。
 -->
 
-![Constipation Card]({{site.baseurl}}/images/10turntshirt/card_12.png)
+![Appendectomy Card]({{site.baseurl}}/images/10turntshirt/card_12.png)
 
 The patient player loses the appendix.
 
@@ -502,7 +504,7 @@ The patient player loses the appendix.
 > 盲腸を喪失する。
 -->
 
-![Constipation Card]({{site.baseurl}}/images/10turntshirt/card_13.png)
+![Homeopathic Card]({{site.baseurl}}/images/10turntshirt/card_13.png)
 
 The virus player places one virus sticker on one of the following organs; esophagus, stomach, or intestines. And the turn is over. The new turn begins.
 
@@ -510,7 +512,7 @@ The virus player places one virus sticker on one of the following organs; esopha
 > ウイルス役は、食道、胃、腸のどこかにウイルスを設置する。そしてただちに次のターンになる。
 -->
 
-![Constipation Card]({{site.baseurl}}/images/10turntshirt/card_14.png)
+![Choking on Mochi Card]({{site.baseurl}}/images/10turntshirt/card_14.png)
 
 The card nullifies the growth through the esophagus during the turn.
 
@@ -518,7 +520,7 @@ The card nullifies the growth through the esophagus during the turn.
 > このターンの間、食道を通じた増殖はできなくなる。
 -->
 
-![Constipation Card]({{site.baseurl}}/images/10turntshirt/card_15.png)
+![Anti-Vax Movement Card]({{site.baseurl}}/images/10turntshirt/card_15.png)
 
 When the patient player uses this card at the first action of the turn, the patient player can use 4 cards in the turn. 
 Instead, the patient player can not give any injection in the turn.
@@ -527,7 +529,7 @@ Instead, the patient player can not give any injection in the turn.
 > このカードをターン開始時に出すと、このターンの間、患者役は注射ができなくなるかわりに、カード4枚を使用できる。
 -->
 
-![Constipation Card]({{site.baseurl}}/images/10turntshirt/card_16.png)
+![Workout Card]({{site.baseurl}}/images/10turntshirt/card_16.png)
 
 The card nullifies the growth of parasites during the turn.
 
@@ -535,7 +537,7 @@ The card nullifies the growth of parasites during the turn.
 > このターンの間、すべての寄生虫の増殖はできなくなる。
 -->
 
-![Constipation Card]({{site.baseurl}}/images/10turntshirt/card_17.png)
+![Fasting Card]({{site.baseurl}}/images/10turntshirt/card_17.png)
 
 The card nullifies the growth through the stomach during the turn.
 
@@ -543,7 +545,7 @@ The card nullifies the growth through the stomach during the turn.
 > このターンの間、胃を通じた増殖はできなくなる。
 -->
 
-![Constipation Card]({{site.baseurl}}/images/10turntshirt/card_18.png)
+![Palpation Card]({{site.baseurl}}/images/10turntshirt/card_18.png)
 
 The card allows the patient player to touch the patient player's back for 5 seconds.
 
@@ -551,7 +553,7 @@ The card allows the patient player to touch the patient player's back for 5 seco
 > 患者役は5秒間、自分の背中を触ることができる。
 -->
 
-![Constipation Card]({{site.baseurl}}/images/10turntshirt/card_19.png)
+![Shiatsu Card]({{site.baseurl}}/images/10turntshirt/card_19.png)
 
 The virus player presses 4 squares chosen by the patient player.
 
@@ -559,7 +561,8 @@ The virus player presses 4 squares chosen by the patient player.
 > ウイルス役は、患者役が指定した4マスを押す。
 -->
 
-![Constipation Card]({{site.baseurl}}/images/10turntshirt/card_20.png)
+![Shoulder Massage Card]({{site.baseurl}}/images/10turntshirt/card_20.png)
+
 The virus player relieves the patient player's weariness of the game by giving massage to the patient player.
 
 <!--
