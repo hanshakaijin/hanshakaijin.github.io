@@ -1,0 +1,140 @@
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0" />　
+        <meta name="robots" content="noindex" />
+        <meta name="googlebot" content="noindex">
+        <meta name="googlebot-news" content="nosnippet">
+        <title>ASMR刑事（デカ）〜秋葉原耳かき姫殺人事件〜</title>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+
+        <style>
+            html, body {
+            	height: 100%;
+            }
+
+            html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,
+            blockquote,pre,abbr,address,cite,code,del,dfn,em,img,
+            ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,
+            ol,ul,li,fieldset,form,label,legend,table,caption,
+            tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,
+            figcaption,figure,footer,header,menu,nav,section,summary,
+            time,mark,audio,video{
+                margin:0;padding:0;border:0;outline:0;
+                font-size:inherit;font-weight:inherit;
+                vertical-align:baseline;background:transparent;
+            }
+            article,aside,details,figcaption,figure,footer,header,
+            hgroup,menu,nav,section,main,summary{
+                display:block;
+            }
+            ol, ul {
+                list-style: none;
+            }
+            html {
+                overflow-y: hidden;
+                -webkit-text-size-adjust: 100%;	
+            }
+
+            body {
+                width: 100%;
+                max-width: 750px;
+                height: 100vh;
+                display: block;
+                margin: auto; 
+                text-align:center;
+                line-height: 1.6;
+                background-color: white;
+                position: relative;
+            }
+
+            .audio-play{
+                width: 100%;
+                margin:0 auto 50px auto;
+            }
+
+            .audio-play audio {
+                width: 80%;
+                height: 30px;
+                outline: none;
+                display: none;
+            }
+
+            .audio-play button {
+                display: block;
+                border: none;
+                background: none;
+                padding: 0;
+                margin: 30px auto;
+                width: 60%;
+                max-width: 300px;
+                position: relative;
+            }
+
+            .audio-play img {
+                width: 100%;
+            }
+
+            header img {
+                width: 80%;
+            }
+
+            footer {
+                display: block;
+                width: 100%;
+                font-size: 10pt;
+                position: absolute;
+                bottom: 0;
+                margin: auto;
+                margin-bottom: 10%;
+            }
+
+        </style>
+
+    </head>
+
+    <body>
+        <script>
+            $(function(){
+                $('#audio-play').get(0).load();
+
+                $('.audio-play img').on('click', function () {
+                    if(!$(this).hasClass('playing')) {
+                        $('#audio-play').get(0).play();
+                    } else if ($(this).hasClass('playing')) {
+                        $('#audio-play').get(0).pause();
+                    };
+                });
+
+                $('#audio-play').on('play', function() {
+                        $('.audio-play img').attr('src', './btn_pause.png');
+                        $('.audio-play img').addClass('playing');
+                });
+
+                $('#audio-play').on('pause', function() {
+                        $('.audio-play img').attr('src', './btn_play.png');
+                        $('.audio-play img').removeClass('playing');
+                });
+
+            });
+        </script>
+
+        <header>
+            <img src="./asmrdeka_title.png">
+        </header>
+
+        <div class="audio-play">
+            <button type="button" class="btn-play">
+                <img src="./btn_play.png" alt="">
+            </button>
+            <!-- 次行のパスを再生するオーディオファイル名に書き換える -->
+            <audio src="./asmr.mp3" preload="auto" controls id="audio-play">
+            </audio>
+        </div>
+
+        <footer>
+            (C)2022 反社会人サークル
+        </footer>
+
+    </body>
+</html>
