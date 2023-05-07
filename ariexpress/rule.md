@@ -1,7 +1,6 @@
 ---
-layout: default
+layout: minimal
 title: アリ急行 ルールページ
-theme: minimal
 ---
 # アリ急行 ルールページ
 
