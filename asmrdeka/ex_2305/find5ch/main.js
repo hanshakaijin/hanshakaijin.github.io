@@ -21,3 +21,13 @@ $(function(){
         }
     });
 });
+
+// Enterキー対応
+$(function () {
+    $('#queryEdit').keydown(function (e) {
+      if (e.keyCode === 13) {
+        $('#sendAnswer').click();
+      }
+    });
+});
+  
