@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <link rel="stylesheet" href="./main.css">
+    <link id="theme_css" rel="stylesheet" href="./theme_light.css">
+    <meta name="robots" content="noindex, nofollow">
+    <title>5chスレタイ検索</title>
+
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+    <script type="text/javascript" src="./main.js"></script>
+</head>
+
+<body style="padding: 0px;">
+    <header style="display: flex; justify-content: space-between; align-items: center; min-height:48px;"
+        class="bg-head bdr-b col-bdr">
+        <div style="width:64px"></div>
+        <a class="fnt-large fnt-b col-pri" href="javascript:location.reload();" style="line-height:40px; padding:0 8px;">5chスレタイ検索</a>
+        <div style="width:64px"></div>
+    </header>
+
+    <main style="height: auto !important;">
+
+        <section class="l-center m-tb-8">
+            <div style="display: block; flex-direction: column;  margin: .5em 2em; width:380px; position:relative">
+                <form name="query" style="width:100%; display:flex;">
+                    <input id="queryEdit" class="bdr-solid col-bdr fnt-large bdr-1" type="text" name="q"
+                        value="" placeholder="キーワード"
+                        style="width: 160px; flex-grow: 1; border-radius: 4px 0 0 4px; border-width: 1px; height:36px; padding: .25em; box-sizing:border-box;"
+                        autofocus="" autocomplete="off">
+                    <button class="bdr-solid col-bdr ui-btn fnt-small bdr-1" type="button" id="sendAnswer" 
+                        style="margin-left: -1px; border-radius: 0 4px 4px 0; min-width: 64px;">検索
+                    </button>
+                </form>
+
+            </div>
+
+        </section>
+
+        <section style="height: auto !important;">
+
+            <div class="m-0 p-0 bdr-b col-bdr p-4-8" id="answer-false" style="display: none;">
+                <!-- 検索結果 -->
+                一致するスレッドが見つかりませんでした。キーワードを変更してお試しください。
+            </div>
+
+            <div class="m-0 p-0 bdr-b col-bdr p-4-8" id="answer-true" style="display: none;">
+                <!-- 検索結果 -->
+                                        1 件のスレがあります (
+                    1 -
+                    1 )
+                                    
+            </div>
+        </section>
+
+        <section>
+
+            <ul class="lst-stl-none" id="answer-true-result" style="display: none;">
+                <li class="bdr-b col-bdr p-tb-8 p-4-8">
+                    <span>
+                        <a class="thread"
+                            href="../5ch/1645886144.html">【謎にまみれた】オオトミゴウと秘密の言葉【大富豪】</a><span class="fnt-small col-sec"> (31)</span>
+                    </span><br>
+                    <div class="fnt-small col-sec m-tb-4" style="margin-top: 6px">
+                        <a class="col-brd" href="https://mao.5ch.net/occult/">オカルト</a>
+                        <span>2023-05-10 03:46</span>
+                    </div>
+                </li>
+            </ul>
+
+        </section>
+
+    </main>
+
+
+</body>
+</html>
