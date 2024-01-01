@@ -38,9 +38,7 @@ title: 外資系コンサルが教える一夜漬けスーパープレゼンテ�
 
 次に、残りのスライドカードを上からWHY⇒WHAT⇒HOWの順番になるよう裏向きに重ねて、山札を作ってください。（下図参照）
 
-![gaishipresen_card_pile]({{site.baseurl}}/gaishipresen/images/card_pile.png)
-
-<img src="{{site.baseurl}}/gaishipresen/images/card_pile.png" width="50%">
+<img src="{{site.baseurl}}/gaishipresen/images/card_pile.png" width="30%">
 
 割り当てられた表紙カードは、ゲーム中にプレイヤーの駒のように用います。裏表はどちらでも構いません。この表紙カードおよび、山札からめくった6枚のスライドカードを、下図のように山札のまわりに円形かつ時計回りに並べます。これを「タイムトラック」と呼びます。明け方まで刻々と流れる時間を表しています。
 
