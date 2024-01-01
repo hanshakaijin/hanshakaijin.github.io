@@ -56,7 +56,7 @@ Appendixカードは、プレイヤーの場に置いてください。Appendix�
 
 このゲームでは、表紙カードを駒のように用いて、タイムトラック上を時計回りに進めていきます。もっとも後ろのプレイヤー※が、常に手番になります。同じプレイヤーの手番が続くこともあります。
 
-<img src="{{site.baseurl}}/gaishipresen/images/figure1.png" width="50%">
+<img src="{{site.baseurl}}/gaishipresen/images/figure1.png" width="60%">
 
 > ※直前の手番で表紙カードの追い越しが発生したなら、追い越された中でもっとも後ろのプレイヤー、発生しなかったなら直前と同じプレイヤー
 
@@ -79,7 +79,7 @@ Appendixカードは、プレイヤーの場に置いてください。Appendix�
 
 また、誰からも選択されなかった場所は、スライドカードが残ったままです。ここにも補充されます。この場合、その場所に置かれているスライドカードは複数枚になります。
 
-<img src="{{site.baseurl}}/gaishipresen/images/figure2.png" width="50%">
+<img src="{{site.baseurl}}/gaishipresen/images/figure2.png" width="60%">
 
 > 図1の後、スタートコンサルタントの表紙カードがあった場所に、1枚スライドカードが補充されます。
 
@@ -101,7 +101,7 @@ Appendixカードは、プレイヤーの場に置いてください。Appendix�
 
 Appendixに移動していないスライドカードを「本編」と呼びます。
 
-<img src="{{site.baseurl}}/gaishipresen/images/figure_appendix.png" width="40%">
+<img src="{{site.baseurl}}/gaishipresen/images/figure_appendix.png" width="50%">
 
 # 得点計算
 
