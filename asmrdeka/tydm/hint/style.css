@@ -1,0 +1,157 @@
+@charset "UTF-8";
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+ 
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/*
+original
+*/
+
+body {
+  display: block;
+  margin: auto;
+  font-family: 'Noto Sans JP', sans-serif;
+  /* font-family: "ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","Helvetica Neue", "Lucida Sans Unicode", "Arial"; */
+  line-height: 1.5em;
+  text-align: center;
+  font-size: 1em;
+  background-color: #333;
+}
+
+::-webkit-input-placeholder {
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+textarea, input[type="text"] {
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+button {
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+div {
+  display: block;
+}
+
+a {
+  font-style: none;
+  color: white;
+  text-decoration: dotted underline white;
+  text-underline-offset: 0.3em;
+}
+
+/* wrapper */
+body {
+  /* background-image: url(./bg.jpg); */
+  /* background-size: contain; */
+  color: white;
+}
+
+header {
+  /* background-image: url(./header_bg.png); */
+  /* background-size: cover; */
+}
+
+.wrapper {
+  padding-bottom: 20px;
+}
+
+.logo {
+  width: 200px;
+  margin: 20px 0px 10px 30px;
+}
+
+p {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.copyright {
+  font-size: 0.7em;
+}
+
+/* hint */
+
+h1 {
+  font-size: 2em;
+  margin: 10px;
+  line-height: 1.5em;
+}
+
+#hint {
+  margin: 20px 10px;
+}
+
+#hint h2 {
+  font-size: 1.5em;
+  margin: 20px 0 20px;
+}
+
+#hint dl {
+}
+
+#hint dt {
+  background-color: #222;
+  padding: 10px 0;
+  text-align: center;
+  border: 1px solid white;
+  cursor: pointer;
+}
+
+#hint dd {
+  text-align: left;
+  line-height: 1.7em;
+  padding: 10px 0;
+  background-color: rgba(255,255,255,0.1);
+}
+
+#hint dd img{
+  width: 100%;
+}
