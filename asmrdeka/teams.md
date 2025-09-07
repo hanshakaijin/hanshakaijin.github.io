@@ -1,3 +1,7 @@
+---
+layout: minimal
+title: ASMR刑事 Discord Bot 利用規約
+---
 # ASMR刑事 Discord Bot 利用規約
 
 ## 第1条（適用）
