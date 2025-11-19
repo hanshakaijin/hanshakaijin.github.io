@@ -1,0 +1,198 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Zen+Old+Mincho:wght@400;700&display=swap');
+
+:root {
+  /* --key-color: #4f5453; */
+  /* --text-color: #4f5453; */
+  --key-color: #000;
+  --text-color: #000;
+  --font-main: 'Zen Old Mincho', serif;
+  /* --bg-color: #f2dead; */
+  --bg-color: #fff;
+}
+
+/* --- buttonリセットCSS --- */
+button,
+input[type="button"],
+input[type="submit"],
+input[type="reset"] {
+  border: none;
+  background: none;
+  padding: 0;
+  margin: 0;
+  font: inherit;
+  color: inherit;
+  outline: none;
+  box-shadow: none;
+  box-sizing: border-box;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100dvw;
+  min-height: 100dvh;
+  box-sizing: border-box;
+  font-family: var(--font-main);
+  color: var(--text-color);
+  /* background-color: var(--bg-color); */
+}
+
+/* 固定背景画像 */
+.bg-fixed {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: -1;
+  background: url('mainvisual.jpg') center top/cover no-repeat;
+  pointer-events: none;
+}
+
+#main-container {
+  /* background: var(--bg-color); */
+  margin: auto;
+  width: 100vw;
+  max-width: calc(100vh * 0.48);
+  min-height: 100dvh;
+  box-sizing: border-box;
+  padding-top: env(safe-area-inset-top, 0px);
+  padding-bottom: env(safe-area-inset-bottom, 0px);
+  padding-left: env(safe-area-inset-left, 0px);
+  padding-right: env(safe-area-inset-right, 0px);
+  display: flex;
+  flex-direction: column;
+}
+
+#hint-container {
+  flex: 1;
+  padding: 16px 8px;
+  overflow-y: auto;
+  /* background: #fff; */
+}
+
+/* 階層ごとのインデント */
+.hint-q-title { font-weight: bold; margin: 0.8em 0 0 0; }
+.hint-q1-title, .hint-block1 { margin-top: 0; }
+.hint-q2-title, .hint-block2 { padding-left: 1.20em; }
+.hint-q3-title, .hint-block3 { padding-left: 1.65em; }
+.hint-q4-title, .hint-block4 { padding-left: 2.10em; }
+.hint-q5-title, .hint-block5 { padding-left: 2.55em; }
+
+/* 選択肢ボタン */
+.hint-a-btn {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  text-align: left;
+  font-family: var(--font-main);
+  color: var(--key-color);
+  background: none;
+  border: none;
+  border-bottom: 1.5px solid var(--key-color);
+  border-radius: 0;
+  padding: 0.0em 0 0.3em 1.5em;
+  margin: 0.1em 0;
+  font-size: 1.0em;
+  cursor: pointer;
+  position: relative;
+  width: 100%;
+  box-shadow: none;
+  transition: background 0.2s, color 0.2s;
+}
+.hint-a-btn::before {
+  content: "▶";
+  color: var(--key-color);
+  font-size: 0.9em;
+  position: absolute;
+  left: 0.2em;
+  top: 50%;
+  transform: translateY(-50%);
+  transition: color 0.2s;
+}
+.hint-a-btn.open::before {
+  content: "▼";
+}
+.hint-a-btn:hover, .hint-a-btn:focus {
+  /* background: var(--bg-color); */
+  /* background-color: #222; */
+  color: #222;
+}
+.hint-a-btn:active {
+  /* background: var(--bg-color); */
+  /* background-color: #222; */
+  color: #222;
+}
+
+/* かたまりごとのマージン */
+.hint-block {
+  margin-bottom: 1.2em;
+}
+
+.hint-block2, .hint-block3, .hint-block4, .hint-block5 {
+  margin-bottom: 0.5em;
+}
+
+/* ヒントテキスト */
+.hint-text {
+  display: block;
+  margin: 0em 0 1.2em 0;
+  font-size: 1em;
+  line-height: 1.7;
+  color: var(--key-color);
+  padding-left: 1em;
+}
+
+/* 画像 */
+.hint-img {
+  display: block;
+  max-width: 100%;
+  margin: 0.5em 0 1.2em 0;
+}
+
+@media (max-width: 600px) {
+  #main-container {
+    max-width: 100vw;
+    border-radius: 0;
+    box-shadow: none;
+  }
+}
+
+/* サイトタイトル・キャプション */
+.site-title-wrap {
+  text-align: center;
+  margin-top: 1.7em;
+  margin-bottom: 0.2em;
+}
+.site-title {
+  font-family: var(--font-main);
+  color: var(--key-color);
+  font-size: 2.2em;
+  font-weight: 700;
+  margin: 0;
+  letter-spacing: 0.08em;
+}
+.site-caption {
+  display: block;
+  font-family: var(--font-main);
+  color: var(--key-color);
+  font-size: 1em;
+  margin-top: 0.1em;
+  margin-bottom: 0.2em;
+  letter-spacing: 0.18em;
+}
+
+/* ヘッダ見出し */
+.hint-header-title {
+  text-align: center;
+  font-family: var(--font-main);
+  color: var(--key-color);
+  font-size: 2.1em;
+  font-weight: 700;
+  margin: 0.5em 0 0.3em 0;
+  letter-spacing: 0.08em;
+}
