@@ -15,7 +15,7 @@
 
   var GENERIC_RESPONSE = "お問い合わせありがとうございます。反社会人サークルです。\n\n" +
     "ご入力いただいた内容ですが、個別対応とさせていただければさいわいです。\n" +
-    "XよりDMでお問い合わせいただければさいわいです。\n" +
+    "XよりDMでお問い合わせください。\n" +
     '<a class="text-link" href="https://x.com/hanshakaijin" target="_blank" rel="noopener noreferrer">https://x.com/hanshakaijin</a>\n\n' +
     "お手数おかけしますが、よろしくおねがいします。\n\n" +
     "反社会人サークル";
