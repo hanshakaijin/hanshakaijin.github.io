@@ -1,12 +1,98 @@
-<!DOCTYPE html>
-<html lang="jp">
+<!doctype html>
+<html lang="ja">
 <head>
-    <meta charset="UTF-8">
-    <meta name="robots" content="nofollow, noindex" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ある炎上職人の一生</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="反社会人サークルへのお問い合わせフォームです。">
+  <title>お問い合わせ｜反社会人サークル</title>
+
+  <!-- Google Fonts: 日本語明朝体 -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>ある炎上職人の一生 問い合わせフォーム</h1>
+  <div class="page">
+    <header class="site-header">
+      <h1 class="site-title wbr-text">お問い合わせ</h1>
+    </header>
+
+    <main>
+      <section class="intro" aria-label="お問い合わせフォーム">
+        <p class="lead-text">
+          反社会人サークルへのお問い合わせは、下記フォームよりご入力ください。
+        </p>
+      </section>
+
+      <section class="content-section">
+        <!-- <h2 class="section-title">お問い合わせフォーム</h2> -->
+
+        <form class="inquiry-form" id="inquiry-form" novalidate>
+          <p class="form-error-message" id="form-error" hidden>未記入の項目があります</p>
+
+          <div class="form-field">
+            <label class="form-label" for="name">お名前</label>
+            <input class="form-control" type="text" id="name" name="name" autocomplete="name">
+          </div>
+
+          <div class="form-field">
+            <label class="form-label" for="inquiry-type">お問い合わせの種類</label>
+            <select class="form-control" id="inquiry-type" name="inquiry_type">
+              <option value="">選択してください</option>
+              <option value="配送について">配送について</option>
+              <option value="商品について">購入商品について</option>
+              <option value="当サークルについて">当サークルについて</option>
+              <option value="その他">その他</option>
+            </select>
+          </div>
+
+          <div class="form-field" id="product-field" hidden>
+            <label class="form-label" for="product-name">商品名</label>
+            <select class="form-control" id="product-name" name="product_name">
+              <option value="">選択してください</option>
+              <option value="この過労死がすごい">この過労死がすごい</option>
+              <option value="顧客が本当に必要だったものゲーム">顧客が本当に必要だったものゲーム</option>
+              <option value="アリ急行">アリ急行</option>
+              <option value="ASMR刑事～秋葉原耳かき姫殺人事件">ASMR刑事～秋葉原耳かき姫殺人事件</option>
+              <option value="ASMR刑事～婚活クッキング殺人事件">ASMR刑事～婚活クッキング殺人事件</option>
+              <option value="トー横デスマッチ殺人事件">トー横デスマッチ殺人事件</option>
+              <option value="売れなかったTシャツで謎解き作ってみた">売れなかったTシャツで謎解き作ってみた</option>
+              <option value="切り抜け！炎上職人">切り抜け！炎上職人</option>
+            </select>
+          </div>
+
+          <div class="form-field">
+            <label class="form-label" for="message">お問い合わせ内容</label>
+            <textarea class="form-control form-textarea" id="message" name="message" rows="8"></textarea>
+            <p class="form-help">商品に不備・不良があった場合は、不備の箇所、内容を記入してください。</p>
+          </div>
+
+          <div class="form-actions">
+            <button class="button-primary" type="submit">送信</button>
+          </div>
+        </form>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <small>(C)2026 Hanshakaijin-Circle</small>
+    </footer>
+  </div>
+
+  <div class="modal" id="response-modal" role="dialog" aria-modal="true" aria-labelledby="modal-title" hidden>
+    <div class="modal-backdrop" data-modal-close></div>
+    <div class="modal-panel" role="document">
+      <!-- <h2 class="modal-title" id="modal-title">送信結果</h2> -->
+      <div class="modal-message" id="modal-message"></div>
+      <div class="modal-actions">
+        <button class="button-primary" type="button" data-modal-close>閉じる</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <script src="inquiry.js"></script>
 </body>
 </html>
