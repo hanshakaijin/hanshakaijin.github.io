@@ -1,24 +1,27 @@
 (function ($) {
   "use strict";
 
-  var SPECIAL_RESPONSE = "お問い合わせありがとうございます。反社会人サークルです。\n\n" +
-    "このたびは商品パッケージ内に不備があり、ご迷惑おかけしました。\n\n" +
-    "ご指摘いただきましたように、本来ブランク（空白）であるブランクカードに意図しない図案が混入しておりました。深くお詫び申し上げます。\n\n" +
-    "以下は今回の顛末になります。\n\n" +
-    "本ゲームにおいて、お気づきになられた方も多いと思いますが、炎上対象となるインフルエンサーにはモデルとなる人物が存在します。ただし、当然そのまま用いるわけにはいきませんので、ぼかした形でアレンジしています（誹謗中傷やネガティブな印象を与えないような調整をしています）。\n\n" +
-    "そのうちの1人の方において、ゲーム制作中にトラブルが発生しました。弊サークルとの間のトラブルということではなく、そのインフルエンサーご自身のトラブルになります。\n\n" +
-    "詳細ははっきりとしていないのですが、弊サークルとしては、この方をモデルにしたカードを自粛させていただく判断をしました。入稿直前だったため、急遽、該当のインフルエンサーを含むカードを「ブランクカード」扱いにして入稿したのですが、ギリギリの作業だったことで削除作業に漏れが発生し、下絵レイヤーが残ってしまっていました。\n\n" +
-    "以降、このような商品不備を起こさないように、入稿前のチェック体制を強化してまいります。\n\n" +
-    "今後とも、反社会人サークルのゲーム・謎解きをご愛顧いただければさいわいです。\n\n" +
-    "追伸：当該インフルエンサーの「トラブル」ですが、詳細がはっきりしていません。我々も気になって調べていたのですが、よくわからず……。もしご興味がありましたら、ご自身で調べていただくのも良いかもしれません。\n\n" +
-    "反社会人サークル";
+  var SPECIAL_RESPONSE = [
+    "<p>お問い合わせありがとうございます。反社会人サークルです。</p>",
+    "<p>このたびは商品パッケージ内に不備があり、ご迷惑おかけしました。</p>",
+    "<p>ご指摘いただきましたように、本来ブランク（空白）であるブランクカードに意図しない図案が混入しておりました。深くお詫び申し上げます。</p>",
+    "<p>以下は今回の顛末になります。</p>",
+    "<p>本ゲームにおいて、お気づきになられた方も多いと思いますが、炎上対象となるインフルエンサーにはモデルとなる人物が存在します。ただし、当然そのまま用いるわけにはいきませんので、ぼかした形でアレンジしています（誹謗中傷やネガティブな印象を与えないような調整をしています）。</p>",
+    "<p>そのうちの1人の方において、ゲーム制作中にトラブルが発生しました。弊サークルとの間のトラブルということではなく、そのインフルエンサーご自身のトラブルになります。</p>",
+    "<p>詳細ははっきりとしていないのですが、弊サークルとしては、この方をモデルにしたカードを自粛させていただく判断をしました。入稿直前だったため、急遽、該当のインフルエンサーを含むカードを「ブランクカード」扱いにして入稿したのですが、ギリギリの作業だったことで削除作業に漏れが発生し、下絵レイヤーが残ってしまっていました。</p>",
+    "<p>以降、このような商品不備を起こさないように、入稿前のチェック体制を強化してまいります。</p>",
+    "<p>今後とも、反社会人サークルのゲーム・謎解きをご愛顧いただければさいわいです。</p>",
+    "<p>追伸：当該インフルエンサーの「トラブル」ですが、詳細がはっきりしていません。我々も気になって調べていたのですが、よくわからず……。もしご興味がありましたら、ご自身で調べていただくのも良いかもしれません。</p>",
+    "<p>反社会人サークル</p>"
+  ].join("");
 
-  var GENERIC_RESPONSE = "お問い合わせありがとうございます。反社会人サークルです。\n\n" +
-    "ご入力いただいた内容ですが、個別対応とさせていただければさいわいです。\n" +
-    "XよりDMでお問い合わせください。\n" +
-    '<a class="text-link" href="https://x.com/hanshakaijin" target="_blank" rel="noopener noreferrer">https://x.com/hanshakaijin</a>\n\n' +
-    "お手数おかけしますが、よろしくおねがいします。\n\n" +
-    "反社会人サークル";
+  var GENERIC_RESPONSE = [
+    "<p>お問い合わせありがとうございます。反社会人サークルです。</p>",
+    "<p>ご入力いただいた内容ですが、個別対応とさせていただければさいわいです。</p>",
+    '<p>XよりDMでお問い合わせください。<br><a class="text-link" href="https://x.com/hanshakaijin" target="_blank" rel="noopener noreferrer">https://x.com/hanshakaijin</a></p>',
+    "<p>お手数おかけしますが、よろしくおねがいします。</p>",
+    "<p>反社会人サークル</p>"
+  ].join("");
 
   var specialMessagePattern = /.*ブランクカード.*/;
 
@@ -32,6 +35,8 @@
     var $modal = $("#response-modal");
     var $modalPanel = $modal.find(".modal-panel");
     var $modalMessage = $("#modal-message");
+    var $loading = $("#submit-loading");
+    var isSubmitting = false;
     var lastFocusedElement = null;
 
     function isProductInquiry() {
@@ -100,13 +105,24 @@
       return true;
     }
 
-    function openModal(message, isHtml) {
+    function setFormBusy(isBusy) {
+      isSubmitting = isBusy;
+      $form.find(".form-control, .button-primary").prop("disabled", isBusy);
+      $loading.prop("hidden", !isBusy);
+    }
+
+    function getResponseMessage() {
+      var productName = $product.val();
+      var messageText = $message.val();
+      var isSpecialProduct = productName.indexOf("炎上職人") !== -1;
+      var isSpecialMessage = specialMessagePattern.test(messageText);
+
+      return isSpecialProduct && isSpecialMessage ? SPECIAL_RESPONSE : GENERIC_RESPONSE;
+    }
+
+    function openModal(message) {
       lastFocusedElement = document.activeElement;
-      if (isHtml) {
-        $modalMessage.html(message);
-      } else {
-        $modalMessage.text(message);
-      }
+      $modalMessage.html(message);
       $modal.prop("hidden", false);
       $modalPanel.scrollTop(0);
       $modalMessage.scrollTop(0);
@@ -134,20 +150,21 @@
     $form.on("submit", function (event) {
       event.preventDefault();
 
+      if (isSubmitting) {
+        return;
+      }
+
       if (!validateForm()) {
         return;
       }
 
-      var productName = $product.val();
-      var messageText = $message.val();
-      var isSpecialProduct = productName.indexOf("炎上職人") !== -1;
-      var isSpecialMessage = specialMessagePattern.test(messageText);
+      var responseMessage = getResponseMessage();
 
-      if (isSpecialProduct && isSpecialMessage) {
-        openModal(SPECIAL_RESPONSE);
-      } else {
-        openModal(GENERIC_RESPONSE, true);
-      }
+      setFormBusy(true);
+      window.setTimeout(function () {
+        setFormBusy(false);
+        openModal(responseMessage);
+      }, 3000);
     });
 
     $("[data-modal-close]").on("click", closeModal);

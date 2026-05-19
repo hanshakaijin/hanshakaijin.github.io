@@ -82,7 +82,7 @@
     </footer>
   </div>
 
-  <div class="modal" id="response-modal" role="dialog" aria-modal="true" aria-labelledby="modal-title" hidden>
+  <div class="modal" id="response-modal" role="dialog" aria-modal="true" aria-label="送信結果" hidden>
     <div class="modal-backdrop" data-modal-close></div>
     <div class="modal-panel" role="document">
       <!-- <h2 class="modal-title" id="modal-title">送信結果</h2> -->
@@ -90,6 +90,13 @@
       <div class="modal-actions">
         <button class="button-primary" type="button" data-modal-close>閉じる</button>
       </div>
+    </div>
+  </div>
+
+  <div class="loading-overlay" id="submit-loading" role="status" aria-live="polite" aria-label="送信中" hidden>
+    <div class="loading-panel">
+      <div class="loading-spinner" aria-hidden="true"></div>
+      <p class="loading-text">送信中</p>
     </div>
   </div>
 

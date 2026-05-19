@@ -5,7 +5,7 @@
   <meta name="robots" content="noindex, nofollow">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="ミステリー・アドベンチャーゲーム『ある炎上職人の一生』のポータルページです。">
-  <title>ある炎上職人の一生 | Game Portal</title>
+  <title>ある炎上職人の一生</title>
 
   <!-- Google Fonts: 日本語明朝体 -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -50,13 +50,27 @@
           </p>
         </div>
 
-        <p class="text-center single-line-emphasis">それでは調査開始です。</p>
+        <div class="start-check-box" aria-labelledby="start-check-title">
+          <div class="start-check-list">
+            <p class="start-check-title" id="start-check-title">調査開始前に、以下をご確認ください。</p>
 
-        <p class="small-text">プレイを開始する前に、下記の「LINEの登録について」「注意事項」の内容をご確認ください。</p>
+            <div class="check-item">
+              <input class="start-check-input" type="checkbox" id="check-line-registration" aria-label="LINE登録を行いました">
+              <span><a class="text-link" href="#line-registration">LINE登録</a><label for="check-line-registration">を行いました</label></span>
+            </div>
+
+            <div class="check-item">
+              <input class="start-check-input" type="checkbox" id="check-notes-hint" aria-label="注意事項、ヒントについて確認しました">
+              <span><a class="text-link" href="#notes">注意事項</a>、<a class="text-link" href="#hint">ヒント</a><label for="check-notes-hint">について確認しました</label></span>
+            </div>
+          </div>
+
+          <p class="text-center single-line-emphasis start-message" aria-live="polite" aria-hidden="true">それでは調査を開始してください。</p>
+        </div>
       </section>
 
       <div class="section-list">
-        <section class="content-section">
+        <section class="content-section" id="line-registration">
           <h2 class="section-title">LINEの登録について</h2>
           <p>
             物語が進むと <span class="keyword-marker">キーワード</span> を見つけることができます。<br>
@@ -78,7 +92,7 @@
           <p class="small-text">調査開始前の登録を推奨します。</p>
         </section>
 
-        <section class="content-section">
+        <section class="content-section" id="hint">
           <h2 class="section-title">ヒント</h2>
           <p>
             進め方がわからず行き詰まってしまった、謎解きが難しくて解けないなどでお困りの際は、
@@ -89,7 +103,7 @@
           </p>
         </section>
 
-        <section class="content-section">
+        <section class="content-section" id="notes">
           <h2 class="section-title">注意事項</h2>
           <ul class="text-list">
             <li>Google等のインターネット検索は不要です。インターネット上の調査が必要な際には、URLあるいはSNSアカウント名等が明示されます。</li>
@@ -135,9 +149,12 @@
     </footer>
   </div>
 
-  <!-- 現時点では JavaScript は使用していません。
-  将来的に script.js を作成して簡単な開閉やフェード演出を追加する場合は、下の行を有効にしてください。
-  <script src="script.js" defer></script>
-  -->
+  <div class="scroll-cue" aria-hidden="true">
+    <span class="scroll-cue__text">SCROLL</span>
+    <span class="scroll-cue__arrow"></span>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <script src="script.js"></script>
 </body>
 </html>
