@@ -1,15 +1,15 @@
 /* 切り抜け！炎上職人ルールページ用（minimal レイアウトの上書き） */
 html {
-  background: #0d0d0d;
+  background: #000000;
 }
 
 body {
-  background: #0d0d0d !important;
+  background: #000000 !important;
   color: #e6e6e6;
 }
 
 .wrapper {
-  background: #0d0d0d;
+  background: #000000;
 }
 
 header,
