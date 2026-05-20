@@ -1,6 +1,7 @@
 ---
 layout: minimal
 title: 切り抜け！炎上職人 ルールシート
+dark_theme: true
 ---
 
 # 切り抜け！炎上職人 ルールシート
