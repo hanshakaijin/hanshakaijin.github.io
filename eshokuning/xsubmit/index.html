@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>投稿を作成</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="page-shell" aria-label="X投稿フォーム">
+    <section class="post-modal" aria-labelledby="post-title">
+      <header class="post-header">
+        <button type="button" class="close-button" aria-label="閉じる">
+          <span aria-hidden="true"></span>
+        </button>
+      </header>
+
+      <div class="post-body">
+        <img class="avatar" src="icon.jpg" alt="ユーザーアイコン">
+
+        <div class="compose-area">
+          <h1 id="post-title" class="visually-hidden">投稿を作成</h1>
+          <textarea id="postText" class="post-textarea" aria-label="投稿本文" spellcheck="false">Xに投稿する用のリンクです。
+改行もOK!
+
+SNSシェアリンク生成ツール</textarea>
+
+          <button type="button" class="reply-setting dummy-control" tabindex="-1" aria-disabled="true">
+            <span class="reply-icon" aria-hidden="true">●</span>
+            全員が返信できます
+          </button>
+        </div>
+      </div>
+
+      <footer class="post-footer">
+        <div class="tool-row" aria-hidden="true">
+          <span class="tool-icon">▧</span>
+          <span class="tool-icon gif">GIF</span>
+          <span class="tool-icon">☺</span>
+          <!-- <span class="tool-icon">⌖</span> -->
+        </div>
+
+        <div class="submit-row">
+          <div id="countIndicator" class="count-indicator" aria-live="polite" aria-label="文字数進捗">
+            <span class="count-core"></span>
+          </div>
+          <span class="footer-divider" aria-hidden="true"></span>
+          <!-- <button type="button" class="add-button dummy-control" tabindex="-1" aria-disabled="true">＋</button> -->
+          <button type="button" id="postButton" class="post-button" disabled>ポストする</button>
+        </div>
+      </footer>
+    </section>
+  </main>
+
+  <div id="confirmOverlay" class="confirm-overlay" aria-hidden="true">
+    <section class="confirm-modal" role="dialog" aria-modal="true" aria-labelledby="confirmTitle">
+      <h2 id="confirmTitle">下書きを削除して、キャンセルしますか？</h2>
+      <div class="confirm-actions">
+        <button type="button" id="confirmYes" class="confirm-button confirm-yes">はい</button>
+        <button type="button" id="confirmNo" class="confirm-button confirm-no">いいえ</button>
+      </div>
+    </section>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+  <script src="script.js"></script>
+</body>
+</html>
