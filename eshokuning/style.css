@@ -508,24 +508,6 @@ select.form-control {
   text-underline-offset: 0.18em;
 }
 
-.keyword-marker {
-  display: inline;
-  padding: 0.02em 0.2em;
-  color: #101010;
-  font-weight: 700;
-  background:
-    linear-gradient(
-      transparent 54%,
-      rgba(255, 235, 36, 0.86) 54%,
-      rgba(255, 235, 36, 0.86) 88%,
-      transparent 88%
-    ),
-    #fffdf2;
-  border-radius: 2px;
-  -webkit-box-decoration-break: clone;
-  box-decoration-break: clone;
-}
-
 .small-text {
   color: var(--color-muted);
   font-size: 0.88rem;
@@ -716,4 +698,22 @@ select.form-control {
   .section-title {
     font-size: 1.25rem;
   }
+}
+
+.keyword-marker {
+  display: inline;
+  padding: 0.02em 0.2em;
+  color: #101010;
+  font-weight: 700;
+  background:
+    linear-gradient(
+      transparent 54%,
+      rgba(255, 235, 36, 0.86) 54%,
+      rgba(255, 235, 36, 0.86) 88%,
+      transparent 88%
+    ),
+    #fffdf2;
+  border-radius: 2px;
+  -webkit-box-decoration-break: clone;
+  box-decoration-break: clone;
 }
