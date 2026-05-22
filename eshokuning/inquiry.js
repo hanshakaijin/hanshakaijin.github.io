@@ -23,7 +23,7 @@
     "<p>反社会人サークル</p>"
   ].join("");
 
-  var specialMessagePattern = /.*ブランクカード.*/;
+  var specialMessagePattern = /.*(ブランク|カード|ぶらんく|かーど).*/;
 
   $(function () {
     var $form = $("#inquiry-form");
