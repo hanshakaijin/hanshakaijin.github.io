@@ -1,9 +1,12 @@
 $(function () {
-  const ANSWER_PATTERNS = ['.*(避雷針|ひらいしん).*'];
+  // 判定用パターン（全マッチ = every(test)）
+  const ANSWER_PATTERNS_1 = ['.*(女|おんな|じょせい|平井|ヒライ).*'];
+  const ANSWER_PATTERNS_2 = ['.*(避雷針|ひらいしん).*'];
 
   const ENDING_1_URL = '../ending.html?c'; // cancel
-  const ENDING_2_URL = '../ending.html?m'; // match
-  const ENDING_3_URL = '../ending.html?u'; // un-match
+  const ENDING_2_URL = '../ending.html?mm'; // match all ANSWER_PATTERNS_1
+  const ENDING_3_URL = '../ending.html?m'; // match all ANSWER_PATTERNS_2
+  const ENDING_4_URL = '../ending.html?u'; // un-match
   const MAX_LENGTH = 140;
 
   const $postText = $('#postText');
@@ -11,7 +14,8 @@ $(function () {
   const $countIndicator = $('#countIndicator');
   const $countCore = $countIndicator.find('.count-core');
   const $confirmOverlay = $('#confirmOverlay');
-  const compiledPatterns = ANSWER_PATTERNS.map((pattern) => new RegExp(pattern, 's'));
+  const compiledPatterns1 = ANSWER_PATTERNS_1.map((pattern) => new RegExp(pattern, 's'));
+  const compiledPatterns2 = ANSWER_PATTERNS_2.map((pattern) => new RegExp(pattern, 's'));
 
   function getTextLength() {
     return $postText.val().length;
@@ -59,8 +63,8 @@ $(function () {
     $('.close-button').trigger('focus');
   }
 
-  function isCorrectAnswer(text) {
-    return compiledPatterns.every((regex) => regex.test(text));
+  function isAllMatch(patterns, text) {
+    return patterns.every((regex) => regex.test(text));
   }
 
   $postText.on('input', updateComposeState);
@@ -90,7 +94,16 @@ $(function () {
       return;
     }
 
-    const destination = isCorrectAnswer($postText.val()) ? ENDING_2_URL : ENDING_3_URL;
+    const text = $postText.val();
+
+    var destination;
+    if (isAllMatch(compiledPatterns1, text)) {
+      destination = ENDING_2_URL;
+    } else if (isAllMatch(compiledPatterns2, text)) {
+      destination = ENDING_3_URL;
+    } else {
+      destination = ENDING_4_URL;
+    }
     window.location.href = destination;
   });
 
