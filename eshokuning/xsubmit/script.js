@@ -1,9 +1,9 @@
 $(function () {
-  const ANSWER_PATTERNS = ['.*test.*', '.*(aaa|bbb).*'];
+  const ANSWER_PATTERNS = ['.*(避雷針|ひらいしん).*'];
 
-  const ENDING_1_URL = './ending1.html';
-  const ENDING_2_URL = './ending2.html';
-  const ENDING_3_URL = './ending3.html';
+  const ENDING_1_URL = '../ending.html?c'; // cancel
+  const ENDING_2_URL = '../ending.html?m'; // match
+  const ENDING_3_URL = '../ending.html?u'; // un-match
   const MAX_LENGTH = 140;
 
   const $postText = $('#postText');
