@@ -535,6 +535,9 @@ select.form-control {
   color: var(--color-text);
 }
 
+.pc-only {
+  display: none;
+}
 .is-modal-open {
   overflow: hidden;
 }
@@ -683,6 +686,11 @@ select.form-control {
   .scroll-cue {
     display: none;
   }
+
+  .pc-only {
+    display: block;
+  }
+
 }
 
 @media (max-width: 380px) {
