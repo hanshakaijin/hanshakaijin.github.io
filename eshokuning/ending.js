@@ -2,6 +2,8 @@
 (function ($) {
   "use strict";
 
+  var tapHintTimerId = null;
+
   var COPY = {
     c: {
       detail:
@@ -32,6 +34,12 @@
   }
 
   function reveal() {
+    if (tapHintTimerId !== null) {
+      window.clearTimeout(tapHintTimerId);
+      tapHintTimerId = null;
+    }
+
+    $("#revealOverlay").removeClass("is-hint-visible");
     $("body").addClass("is-revealed");
   }
 
@@ -54,6 +62,15 @@
   $(function () {
     var code = getCode();
     applyCopy(code);
+
+    // 5秒後、まだrevealされていなければ TAP ヒントをフェードイン
+    tapHintTimerId = window.setTimeout(function () {
+      tapHintTimerId = null;
+
+      if (!$("body").hasClass("is-revealed")) {
+        $("#revealOverlay").addClass("is-hint-visible");
+      }
+    }, 5000);
 
     // tap/click to reveal
     $("#revealOverlay").on("click", reveal);
