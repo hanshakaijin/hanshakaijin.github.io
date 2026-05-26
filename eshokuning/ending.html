@@ -12,85 +12,6 @@
   <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@400;500;600;700&display=swap" rel="stylesheet">
 
   <link rel="stylesheet" href="style.css">
-
-  <style>
-    /* ending.html 専用: 初期は真っ黒→タップで本文がフェードイン */
-    body.ending-body {
-      overflow: hidden;
-    }
-
-    body.ending-body.is-revealed {
-      overflow: auto;
-    }
-
-    .ending-page {
-      opacity: 0;
-      filter: blur(14px);
-      transform: translateY(6px);
-      transition:
-        opacity 600ms ease,
-        filter 650ms ease,
-        transform 650ms ease;
-    }
-
-    body.ending-body.is-revealed .ending-page {
-      opacity: 1;
-      filter: blur(0);
-      transform: translateY(0);
-    }
-
-    .reveal-overlay {
-      position: fixed;
-      inset: 0;
-      z-index: 50;
-      background: #000;
-      opacity: 1;
-      transition: opacity 700ms ease;
-      display: grid;
-      place-items: center;
-      padding: 22px;
-      cursor: pointer;
-    }
-
-    body.ending-body.is-revealed .reveal-overlay {
-      opacity: 0;
-      pointer-events: none;
-    }
-
-    .reveal-hint {
-      color: rgba(255, 255, 255, 0.72);
-      font-size: 0.9rem;
-      letter-spacing: 0.08em;
-      text-align: center;
-      user-select: none;
-      opacity: 0;
-      transform: translateY(6px);
-      transition:
-        opacity 550ms ease,
-        transform 550ms ease;
-    }
-
-    .reveal-overlay.is-hint-visible .reveal-hint {
-      opacity: 1;
-      transform: translateY(0);
-    }
-
-    /* ending.html: aタグをボタンとして見せる補助 */
-    .ending-link-actions {
-      margin-top: 16px;
-      display: flex;
-      flex-wrap: wrap;
-      gap: 12px;
-      justify-content: center;
-    }
-
-    a.button-primary {
-      display: inline-flex;
-      align-items: center;
-      justify-content: center;
-      text-decoration: none;
-    }
-  </style>
 </head>
 <body class="ending-body">
   <div id="revealOverlay" class="reveal-overlay" aria-label="タップで表示">
@@ -130,7 +51,7 @@
             「ネットの避雷針」の足取りを取材していたライターの取材メモが入手できました。そこには「ネットの避雷針」の現在が記録されていました。
         </p>
 
-        <div class="ending-link-actions">
+        <div class="button-row">
           <a
             class="button-primary"
             href=""
@@ -145,7 +66,7 @@
 
       <section class="content-section">
         <h2 class="section-title">シェア</h2>
-        <div class="ending-link-actions">
+        <div class="button-row">
           <a
             class="button-primary"
             href="https://x.com/intent/tweet?text=%E3%80%8E%E3%81%82%E3%82%8B%E7%82%8E%E4%B8%8A%E8%81%B7%E4%BA%BA%E3%81%AE%E4%B8%80%E7%94%9F%E3%80%8F%E3%81%AE%E7%B5%90%E6%9C%AB%E3%82%92%E8%A6%8B%E5%B1%8A%E3%81%91%E3%81%9F%EF%BC%81&hashtags=%E7%82%8E%E4%B8%8A%E8%81%B7%E4%BA%BAARG%2C%E5%8F%8D%E7%A4%BE%E4%BC%9A%E4%BA%BA%E3%82%B5%E3%83%BC%E3%82%AF%E3%83%AB"
@@ -163,7 +84,7 @@
             今後のゲーム制作に向けて、アンケートにご協力いただけるとさいわいです。
         </p>
 
-        <div class="ending-link-actions">
+        <div class="button-row">
           <a
             class="button-primary"
             href="https://forms.gle/J5KHm5AhyoLbJ3wa9"

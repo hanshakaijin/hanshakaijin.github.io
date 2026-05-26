@@ -224,6 +224,9 @@ rt {
   color: var(--color-accent-soft);
 }
 
+/* =========================================================
+   Start checklist (index.html)
+   ========================================================= */
 .start-check-box {
   display: grid;
   max-width: 520px;
@@ -301,6 +304,9 @@ rt {
   transition-delay: 0.5s;
 }
 
+/* =========================================================
+   Inquiry form (inquiry.html)
+   ========================================================= */
 .inquiry-form {
   display: grid;
   gap: 22px;
@@ -377,12 +383,24 @@ select.form-control {
   text-align: center;
 }
 
+.form-control:disabled {
+  cursor: wait;
+  opacity: 0.72;
+}
+
+/* =========================================================
+   Buttons
+   ========================================================= */
 .button-primary {
   min-width: min(100%, 220px);
   min-height: 48px;
   padding: 11px 22px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
   color: #1b120d;
   font-weight: 700;
+  text-decoration: none;
   background: var(--color-accent-soft);
   border: 1px solid rgba(255, 255, 255, 0.24);
   border-radius: 4px;
@@ -395,9 +413,81 @@ select.form-control {
 }
 
 .button-primary:disabled,
-.form-control:disabled {
+.button-primary[aria-disabled="true"] {
   cursor: wait;
   opacity: 0.72;
+}
+
+/* ボタンを横並び＆折り返しで配置したい時の汎用レイアウト */
+.button-row {
+  margin-top: 16px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  justify-content: center;
+}
+
+/* =========================================================
+   Ending page (ending.html)
+   ========================================================= */
+body.ending-body {
+  overflow: hidden;
+}
+
+body.ending-body.is-revealed {
+  overflow: auto;
+}
+
+.ending-page {
+  opacity: 0;
+  filter: blur(14px);
+  transform: translateY(6px);
+  transition:
+    opacity 600ms ease,
+    filter 650ms ease,
+    transform 650ms ease;
+}
+
+body.ending-body.is-revealed .ending-page {
+  opacity: 1;
+  filter: blur(0);
+  transform: translateY(0);
+}
+
+.reveal-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 50;
+  background: #000;
+  opacity: 1;
+  transition: opacity 700ms ease;
+  display: grid;
+  place-items: center;
+  padding: 22px;
+  cursor: pointer;
+}
+
+body.ending-body.is-revealed .reveal-overlay {
+  opacity: 0;
+  pointer-events: none;
+}
+
+.reveal-hint {
+  color: rgba(255, 255, 255, 0.72);
+  font-size: 0.9rem;
+  letter-spacing: 0.08em;
+  text-align: center;
+  user-select: none;
+  opacity: 0;
+  transform: translateY(6px);
+  transition:
+    opacity 550ms ease,
+    transform 550ms ease;
+}
+
+.reveal-overlay.is-hint-visible .reveal-hint {
+  opacity: 1;
+  transform: translateY(0);
 }
 
 .single-line-emphasis {
