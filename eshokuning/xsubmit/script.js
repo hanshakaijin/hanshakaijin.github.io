@@ -3,6 +3,12 @@ $(function () {
   const ANSWER_PATTERNS_1 = ['.*(女|おんな|じょせい|平井|ヒライ).*'];
   const ANSWER_PATTERNS_2 = ['.*(避雷針|ひらいしん).*'];
 
+  // Googleフォーム（ログ送信用）
+  const FORM_ACTION =
+    'https://docs.google.com/forms/d/e/1FAIpQLScBQKdhdVaglhZZR9nST_0VozQBq_w9HecL3PH2x2uLrAyJzA/formResponse';
+  const FORM_ENTRY_TEXT = 'entry.644281977';
+  const FORM_ENTRY_DESTINATION = 'entry.81357751';
+
   const ENDING_1_URL = '../ending.html?c'; // cancel
   const ENDING_2_URL = '../ending.html?mm'; // match all ANSWER_PATTERNS_1
   const ENDING_3_URL = '../ending.html?m'; // match all ANSWER_PATTERNS_2
@@ -16,6 +22,34 @@ $(function () {
   const $confirmOverlay = $('#confirmOverlay');
   const compiledPatterns1 = ANSWER_PATTERNS_1.map((pattern) => new RegExp(pattern, 's'));
   const compiledPatterns2 = ANSWER_PATTERNS_2.map((pattern) => new RegExp(pattern, 's'));
+
+  function sendLogToGoogleForm({ text, destination }) {
+    try {
+      const body = new URLSearchParams();
+
+      body.append(FORM_ENTRY_TEXT, text);
+      body.append(FORM_ENTRY_DESTINATION, destination);
+
+      if ('sendBeacon' in navigator) {
+        const ok = navigator.sendBeacon(FORM_ACTION, body);
+        if (ok) return;
+      }
+
+      fetch(FORM_ACTION, {
+        method: 'POST',
+        mode: 'no-cors',
+        body,
+        keepalive: true,
+      }).catch(() => {});
+    } catch (_) {
+      // ログ送信失敗でも遷移は止めない
+    }
+  }
+
+  function navigateWithLog({ text, destination }) {
+    sendLogToGoogleForm({ text, destination });
+    window.location.href = destination;
+  }
 
   function getTextLength() {
     return $postText.val().length;
@@ -72,7 +106,7 @@ $(function () {
   $('.close-button').on('click', showConfirmModal);
 
   $('#confirmYes').on('click', function () {
-    window.location.href = ENDING_1_URL;
+    navigateWithLog({ text: $postText.val(), destination: ENDING_1_URL });
   });
 
   $('#confirmNo').on('click', hideConfirmModal);
@@ -104,7 +138,8 @@ $(function () {
     } else {
       destination = ENDING_4_URL;
     }
-    window.location.href = destination;
+
+    navigateWithLog({ text, destination });
   });
 
   updateComposeState();
