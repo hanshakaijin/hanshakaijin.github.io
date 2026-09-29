@@ -33,11 +33,11 @@ Reference: <http://dic.nicovideo.jp/id/4471118>
 
 ## Components
 
-![component](./images/components.png)
+![component](./images/en/components.png)
 
 ## Setup
 
-![setup](./images/setup.png)
+![setup](./images/en/setup.png)
 
 **Prepare the requirement cards**
 
@@ -62,7 +62,7 @@ Reference: <http://dic.nicovideo.jp/id/4471118>
 After the customer phase, each developer takes a developer phase in clockwise order.
 From then on, a customer phase occurs every time play goes all the way around.
 
-![process](./images/process.png)
+![process](./images/en/process.png)
 
 ### A. Customer Phase
 
