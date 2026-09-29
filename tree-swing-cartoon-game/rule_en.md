@@ -1,8 +1,10 @@
 ---
 layout: minimal
-title: What the Customer Really Needed — Rules
+title: Tree Swing Cartoon Game — Rules
 ---
-# What the Customer Really Needed — Rules
+# Tree Swing Cartoon Game — Rules
+
+What the Customer Really Needed
 
 [日本語](./rule.html)
 
