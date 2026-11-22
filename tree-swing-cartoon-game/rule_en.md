@@ -117,9 +117,11 @@ The starting developer carries out the customer phase.
   - 1 YTK for each of your cards still on the board that belongs to a connected group of 2 or more of your cards.
   - 1 YTK for each requirement card you collected.
 - Honor the developer with the most YTK as the Client Whisperer.
+- If tied, the developer who collected more requirement cards wins.
+- If still tied, the developer closer to the starting developer wins: the starting developer first, then the next seat, and so on.
 
 ## Optional rules
 
 - A game is normally one round. You may instead play as many rounds as there are developers.
 - After a round ends, pass the role of starting developer one seat clockwise and play the next round.
-- The game ends once the starting developer has gone all the way around. The developer with the highest total YTK is the Legendary Client Whisperer.
+- The game ends once the starting developer has gone all the way around. The developer with the highest total YTK is the Legendary Client Whisperer. Break ties the same way as above.
