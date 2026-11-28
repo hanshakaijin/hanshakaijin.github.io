@@ -78,7 +78,6 @@ The starting developer carries out the customer phase.
 
 - Choose one card from your hand of 5 and either **place** it, **stock** it, or **discard** it.
 - At the end of your turn, draw the top card of your deliverable deck and add it to your hand. Your hand returns to 5 cards.
-- If your deliverable deck is empty, end your turn without drawing.
 
 **B-1: Place**
 
